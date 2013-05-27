@@ -9,9 +9,9 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class DummyPickaxe extends ItemPickaxe {
+public class DummyPick extends ItemPickaxe {
 
-    public DummyPickaxe(final int par1, final EnumToolMaterial par2EnumToolMaterial) {
+    public DummyPick(final int par1, final EnumToolMaterial par2EnumToolMaterial) {
         super(par1, par2EnumToolMaterial);
         this.setCreativeTab(DendritisTabs.tabDendritisTools);
         // TODO Auto-generated constructor stub
