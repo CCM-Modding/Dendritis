@@ -128,7 +128,7 @@ public final class ModItems {
     public static void init() {
         Handler.log(Dendritis.instance, "Loading Items");
         itemMain = new BaseItem(Properties.itemMainID, 0);
-        itemGems = new BaseItem(Properties.itemGemsID, 1).setCreativeTab(DendritisTabs.tabDendritisMaterials);
+        itemGems = new BaseItem(Properties.itemGemsID, 1).setCreativeTab(DendritisTabs.tabDendritisGems);
 
         axeAmethyst = new DummyAxe(Properties.axeAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName(ItemNames.axeAmethyst);
         hoeAmethyst = new DummyHoe(Properties.hoeAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName(ItemNames.hoeAmethyst);

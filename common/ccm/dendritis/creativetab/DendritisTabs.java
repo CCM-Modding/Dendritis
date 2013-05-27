@@ -1,44 +1,47 @@
 package ccm.dendritis.creativetab;
 
+import net.minecraft.item.ItemStack;
 import ccm.dendritis.core.handlers.EHandler;
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
 import ccm.dendritis.enums.EnumMain;
+import ccm.dendritis.item.ModItems;
 import ccm.dendritis.utils.lib.Archive;
+import ccm.nucleum_omnium.creativetab.CreativeTab;
 
 public class DendritisTabs {
 
     /**
      * Tabs that Contains All the blocks
      */
-    public static DendritisTab tabDendritisBlocks;
+    public static CreativeTab tabDendritisBlocks;
 
     /**
-     * Contains All the Material Items
+     * Contains All the Gems Items
      */
-    public static DendritisTab tabDendritisMaterials;
+    public static CreativeTab tabDendritisGems;
 
     /**
      * Contains All the Misc Items
      */
-    public static DendritisTab tabDendritisItems;
+    public static CreativeTab tabDendritisItems;
 
     /**
-     * Contains All the Useable Items
+     * Contains All the Tools Items
      */
-    public static DendritisTab tabDendritisTools;
+    public static CreativeTab tabDendritisTools;
 
     public static void initTabs() {
-        tabDendritisBlocks = new DendritisTab(Archive.TAB_DENDRITIS);
-        tabDendritisMaterials = new DendritisTab(Archive.TAB_DENDRITIS);
-        tabDendritisItems = new DendritisTab(Archive.TAB_DENDRITIS);
-        tabDendritisTools = new DendritisTab(Archive.TAB_DENDRITIS);
+        tabDendritisBlocks = new CreativeTab(Archive.TAB_DENDRITIS);
+        tabDendritisGems = new CreativeTab(Archive.TAB_DENDRITIS);
+        tabDendritisItems = new CreativeTab(Archive.TAB_DENDRITIS);
+        tabDendritisTools = new CreativeTab(Archive.TAB_DENDRITIS);
     }
 
     public static void initTabIcons() {
         tabDendritisBlocks.init(EHandler.getItem(EnumBlocks.blockAmethyst));
-        tabDendritisMaterials.init(EHandler.getItem(EnumGems.gemAmethyst));
+        tabDendritisGems.init(EHandler.getItem(EnumGems.gemAmethyst));
         tabDendritisItems.init(EHandler.getItem(EnumMain.handle));
-        tabDendritisTools.init(EHandler.getItem(EnumGems.gemOpal));
+        tabDendritisTools.init(new ItemStack(ModItems.swordAmethyst));
     }
 }
