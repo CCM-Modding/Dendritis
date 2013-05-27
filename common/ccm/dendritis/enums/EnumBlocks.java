@@ -8,20 +8,20 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 public enum EnumBlocks {
 
     blockAmethyst,
-    blockBlackDiamond,
+    blockBDiamond,
     blockCitrine,
-    blockCubicZirconia,
+    blockCZirconia,
     blockFuchsia,
     blockJet,
     blockOlivine,
     blockOpal,
     blockRuby,
     blockSapphire,
-    blockSmokyQuartz,
+    blockSQuartz,
     blockSun,
     blockTopaz,
     blockTurquoise,
-    blockWhiteAlabaster;
+    blockWAlabaster;
 
     private Icon icon;
 

@@ -8,20 +8,20 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 public enum EnumOres {
 
     oreAmethyst,
-    oreBlackDiamond,
+    oreBDiamond,
     oreCitrine,
-    oreCubicZirconia,
+    oreCZirconia,
     oreFuchsia,
     oreJet,
     oreOlivine,
     oreOpal,
     oreRuby,
     oreSapphire,
-    oreSmokyQuartz,
+    oreSQuartz,
     oreSun,
     oreTopaz,
     oreTurquoise,
-    oreWhiteAlabaster;
+    oreWAlabaster;
 
     private Icon icon;
 

@@ -48,20 +48,20 @@ final class ConfigWorldGen extends Config {
     protected static void configWorldGen(final Configuration config) {
 
         genAmethyst(config);
-        genBlackDiamond(config);
+        genBDiamond(config);
         genCitrine(config);
-        genCubicZirconia(config);
+        genCZirconia(config);
         genFuchsia(config);
         genJet(config);
         genOlivine(config);
         genOpal(config);
         genRuby(config);
         genSapphire(config);
-        genSmokyQuartz(config);
+        genSQuartz(config);
         genSun(config);
         genTopaz(config);
         genTurquoise(config);
-        genWhiteAlabaster(config);
+        genWAlabaster(config);
     }
 
     /**
@@ -88,9 +88,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genBlackDiamond(final Configuration config)
+    private static void genBDiamond(final Configuration config)
     {
-        if (Properties.enableWorldGenBlackDiamond = config.get(gen + bdi, "Enable Generation of BlackDiamond", true).getBoolean(true)){
+        if (Properties.enableWorldGenBDiamond = config.get(gen + bdi, "Enable Generation of BlackDiamond", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading BlackDiamond Configs");
 
             Properties.bdiMaxHeight = config.get(gen + bdi, "Maximum Height", 50).getInt();
@@ -124,9 +124,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genCubicZirconia(final Configuration config)
+    private static void genCZirconia(final Configuration config)
     {
-        if (Properties.enableWorldGenCubicZirconia = config.get(gen + czi, "Enable Generation of CubicZirconia", true).getBoolean(true)){
+        if (Properties.enableWorldGenCZirconia = config.get(gen + czi, "Enable Generation of CubicZirconia", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading CubicZirconia Configs");
 
             Properties.cziMaxHeight = config.get(gen + czi, "Maximum Height", 50).getInt();
@@ -250,9 +250,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genSmokyQuartz(final Configuration config)
+    private static void genSQuartz(final Configuration config)
     {
-        if (Properties.enableWorldGenSmokyQuartz = config.get(gen + squ, "Enable Generation of SmokyQuartz", true).getBoolean(true)){
+        if (Properties.enableWorldGenSQuartz = config.get(gen + squ, "Enable Generation of SmokyQuartz", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading SmokyQuartz Configs");
 
             Properties.squMaxHeight = config.get(gen + squ, "Maximum Height", 50).getInt();
@@ -322,9 +322,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genWhiteAlabaster(final Configuration config)
+    private static void genWAlabaster(final Configuration config)
     {
-        if (Properties.enableWorldGenWhiteAlabaster = config.get(gen + wal, "Enable Generation of WhiteAlabaster", true).getBoolean(true)){
+        if (Properties.enableWorldGenWAlabaster = config.get(gen + wal, "Enable Generation of WhiteAlabaster", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading WhiteAlabaster Configs");
 
             Properties.walMaxHeight = config.get(gen + wal, "Maximum Height", 50).getInt();

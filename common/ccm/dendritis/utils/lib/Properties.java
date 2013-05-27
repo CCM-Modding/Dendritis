@@ -143,7 +143,7 @@ public class Properties {
     public static int ameDensity;
     
     // BlackDiamond
-    public static boolean enableWorldGenBlackDiamond;
+    public static boolean enableWorldGenBDiamond;
     public static int bdiMaxHeight;
     public static int bdiMinHeight;
     public static int bdiSize;
@@ -157,7 +157,7 @@ public class Properties {
     public static int citDensity;
     
     // CubicZirconia
-    public static boolean enableWorldGenCubicZirconia;
+    public static boolean enableWorldGenCZirconia;
     public static int cziMaxHeight;
     public static int cziMinHeight;
     public static int cziSize;
@@ -206,7 +206,7 @@ public class Properties {
     public static int sapDensity;
     
     // SmokyQuartz
-    public static boolean enableWorldGenSmokyQuartz;
+    public static boolean enableWorldGenSQuartz;
     public static int squMaxHeight;
     public static int squMinHeight;
     public static int squSize;
@@ -234,7 +234,7 @@ public class Properties {
     public static int turDensity;
     
     // WhiteAlabaster
-    public static boolean enableWorldGenWhiteAlabaster;
+    public static boolean enableWorldGenWAlabaster;
     public static int walMaxHeight;
     public static int walMinHeight;
     public static int walSize;

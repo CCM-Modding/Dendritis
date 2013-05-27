@@ -8,20 +8,20 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 public enum EnumGems {
 
     gemAmethyst,
-    gemBlackDiamond,
+    gemBDiamond,
     gemCitrine,
-    gemCubicZirconia,
+    gemCZirconia,
     gemFuchsia,
     gemJet,
     gemOlivine,
     gemOpal,
     gemRuby,
     gemSapphire,
-    gemSmokyQuartz,
+    gemSQuartz,
     gemSun,
     gemTopaz,
     gemTurquoise,
-    gemWhiteAlabaster;
+    gemWAlabaster;
 
     public static void registerIcons(final IconRegister register) {
         for (final EnumGems ingot : EnumGems.values()) {
