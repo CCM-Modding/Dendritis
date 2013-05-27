@@ -66,104 +66,104 @@
 
 	<!-- ******************************** Tools ****************************** -->
 
-	<entry key="item.axeAmethyst.name">Amethyst Hoe</entry>
-	<entry key="item.hoeAmethyst.name">Amethyst Axe</entry>
+	<entry key="item.axeAmethyst.name">Amethyst Axe</entry>
+	<entry key="item.hoeAmethyst.name">Amethyst Hoe</entry>
 	<entry key="item.spadeAmethyst.name">Amethyst Shovel</entry>
 	<entry key="item.pickAmethyst.name">Amethyst Pickaxe</entry>
 	<entry key="item.swordAmethyst.name">Amethyst Sword</entry>
 
-	<entry key="item.axeBDiamond.name">Black Diamond Hoe</entry>
-	<entry key="item.hoeBDiamond.name">Black Diamond Axe</entry>
+	<entry key="item.axeBDiamond.name">Black Diamond Axe</entry>
+	<entry key="item.hoeBDiamond.name">Black Diamond Hoe</entry>
 	<entry key="item.spadeBDiamond.name">Black Diamond Shovel</entry>
 	<entry key="item.pickBDiamond.name">Black Diamond Pickaxe</entry>
 	<entry key="item.swordBDiamond.name">Black Diamond Sword</entry>
 
-	<entry key="item.axeCitrine.name">Citrine Hoe</entry>
-	<entry key="item.hoeCitrine.name">Citrine Axe</entry>
+	<entry key="item.axeCitrine.name">Citrine Axe</entry>
+	<entry key="item.hoeCitrine.name">Citrine Hoe</entry>
 	<entry key="item.spadeCitrine.name">Citrine Shovel</entry>
 	<entry key="item.pickCitrine.name">Citrine Pickaxe</entry>
 	<entry key="item.swordCitrine.name">Citrine Sword</entry>
 
-	<entry key="item.axeCZirconia.name">Cubic Zirconia Hoe</entry>
-	<entry key="item.hoeCZirconia.name">Cubic Zirconia Axe</entry>
+	<entry key="item.axeCZirconia.name">Cubic Zirconia Axe</entry>
+	<entry key="item.hoeCZirconia.name">Cubic Zirconia Hoe</entry>
 	<entry key="item.spadeCZirconia.name">Cubic Zirconia Shovel</entry>
 	<entry key="item.pickCZirconia.name">Cubic Zirconia Pickaxe</entry>
 	<entry key="item.swordCZirconia.name">Cubic Zirconia Sword</entry>
 
-	<entry key="item.axeEmerald.name">Emerald Hoe</entry>
-	<entry key="item.hoeEmerald.name">Emerald Axe</entry>
+	<entry key="item.axeEmerald.name">Emerald Axe</entry>
+	<entry key="item.hoeEmerald.name">Emerald Hoe</entry>
 	<entry key="item.spadeEmerald.name">Emerald Shovel</entry>
 	<entry key="item.pickEmerald.name">Emerald Pickaxe</entry>
 	<entry key="item.swordEmerald.name">Emerald Sword</entry>
 
-	<entry key="item.axeFuchsia.name">Fuchsia Hoe</entry>
-	<entry key="item.hoeFuchsia.name">Fuchsia Axe</entry>
+	<entry key="item.axeFuchsia.name">Fuchsia Axe</entry>
+	<entry key="item.hoeFuchsia.name">Fuchsia Hoe</entry>
 	<entry key="item.spadeFuchsia.name">Fuchsia Shovel</entry>
 	<entry key="item.pickFuchsia.name">Fuchsia Pickaxe</entry>
 	<entry key="item.swordFuchsia.name">Fuchsia Sword</entry>
 
-	<entry key="item.axeJet.name">Jet Hoe</entry>
-	<entry key="item.hoeJet.name">Jet Axe</entry>
+	<entry key="item.axeJet.name">Jet Axe</entry>
+	<entry key="item.hoeJet.name">Jet Hoe</entry>
 	<entry key="item.spadeJet.name">Jet Shovel</entry>
 	<entry key="item.pickJet.name">Jet Pickaxe</entry>
 	<entry key="item.swordJet.name">Jet Sword</entry>
 
-	<entry key="item.axeOlivine.name">Olivine Hoe</entry>
-	<entry key="item.hoeOlivine.name">Olivine Axe</entry>
+	<entry key="item.axeOlivine.name">Olivine Axe</entry>
+	<entry key="item.hoeOlivine.name">Olivine Hoe</entry>
 	<entry key="item.spadeOlivine.name">Olivine Shovel</entry>
 	<entry key="item.pickOlivine.name">Olivine Pickaxe</entry>
 	<entry key="item.swordOlivine.name">Olivine Sword</entry>
 
-	<entry key="item.axeOpal.name">Opal Hoe</entry>
-	<entry key="item.hoeOpal.name">Opal Axe</entry>
+	<entry key="item.axeOpal.name">Opal Axe</entry>
+	<entry key="item.hoeOpal.name">Opal Hoe</entry>
 	<entry key="item.spadeOpal.name">Opal Shovel</entry>
 	<entry key="item.pickOpal.name">Opal Pickaxe</entry>
 	<entry key="item.swordOpal.name">Opal Sword</entry>
 
-	<entry key="item.axeQuartz.name">Quartz Hoe</entry>
-	<entry key="item.hoeQuartz.name">Quartz Axe</entry>
+	<entry key="item.axeQuartz.name">Quartz Axe</entry>
+	<entry key="item.hoeQuartz.name">Quartz Hoe</entry>
 	<entry key="item.spadeQuartz.name">Quartz Shovel</entry>
 	<entry key="item.pickQuartz.name">Quartz Pickaxe</entry>
 	<entry key="item.swordQuartz.name">Quartz Sword</entry>
 
-	<entry key="item.axeRuby.name">Ruby Hoe</entry>
-	<entry key="item.hoeRuby.name">Ruby Axe</entry>
+	<entry key="item.axeRuby.name">Ruby Axe</entry>
+	<entry key="item.hoeRuby.name">Ruby Hoe</entry>
 	<entry key="item.spadeRuby.name">Ruby Shovel</entry>
 	<entry key="item.pickRuby.name">Ruby Pickaxe</entry>
 	<entry key="item.swordRuby.name">Ruby Sword</entry>
 
-	<entry key="item.axeSapphire.name">Sapphire Hoe</entry>
-	<entry key="item.hoeSapphire.name">Sapphire Axe</entry>
+	<entry key="item.axeSapphire.name">Sapphire Axe</entry>
+	<entry key="item.hoeSapphire.name">Sapphire Hoe</entry>
 	<entry key="item.spadeSapphire.name">Sapphire Shovel</entry>
 	<entry key="item.pickSapphire.name">Sapphire Pickaxe</entry>
 	<entry key="item.swordSapphire.name">Sapphire Sword</entry>
 
-	<entry key="item.axeSQuartz.name">Smoky Quartz Hoe</entry>
-	<entry key="item.hoeSQuartz.name">Smoky Quartz Axe</entry>
+	<entry key="item.axeSQuartz.name">Smoky Quartz Axe</entry>
+	<entry key="item.hoeSQuartz.name">Smoky Quartz Hoe</entry>
 	<entry key="item.spadeSQuartz.name">Smoky Quartz Shovel</entry>
 	<entry key="item.pickSQuartz.name">Smoky Quartz Pickaxe</entry>
 	<entry key="item.swordSQuartz.name">Smoky Quartz Sword</entry>
 
-	<entry key="item.axeSun.name">Sun Hoe</entry>
-	<entry key="item.hoeSun.name">Sun Axe</entry>
+	<entry key="item.axeSun.name">Sun Axe</entry>
+	<entry key="item.hoeSun.name">Sun Hoe</entry>
 	<entry key="item.spadeSun.name">Sun Shovel</entry>
 	<entry key="item.pickSun.name">Sun Pickaxe</entry>
 	<entry key="item.swordSun.name">Sun Sword</entry>
 
-	<entry key="item.axeTopaz.name">Topaz Hoe</entry>
-	<entry key="item.hoeTopaz.name">Topaz Axe</entry>
+	<entry key="item.axeTopaz.name">Topaz Axe</entry>
+	<entry key="item.hoeTopaz.name">Topaz Hoe</entry>
 	<entry key="item.spadeTopaz.name">Topaz Shovel</entry>
 	<entry key="item.pickTopaz.name">Topaz Pickaxe</entry>
 	<entry key="item.swordTopaz.name">Topaz Sword</entry>
 
-	<entry key="item.axeTurquoise.name">Turquoise Hoe</entry>
-	<entry key="item.hoeTurquoise.name">Turquoise Axe</entry>
+	<entry key="item.axeTurquoise.name">Turquoise Axe</entry>
+	<entry key="item.hoeTurquoise.name">Turquoise Hoe</entry>
 	<entry key="item.spadeTurquoise.name">Turquoise Shovel</entry>
 	<entry key="item.pickTurquoise.name">Turquoise Pickaxe</entry>
 	<entry key="item.swordTurquoise.name">Turquoise Sword</entry>
 
-	<entry key="item.axeWAlabaster.name">White Alabaster Hoe</entry>
-	<entry key="item.hoeWAlabaster.name">White Alabaster Axe</entry>
+	<entry key="item.axeWAlabaster.name">White Alabaster Axe</entry>
+	<entry key="item.hoeWAlabaster.name">White Alabaster Hoe</entry>
 	<entry key="item.spadeWAlabaster.name">White Alabaster Shovel</entry>
 	<entry key="item.pickWAlabaster.name">White Alabaster Pickaxe</entry>
 	<entry key="item.swordWAlabaster.name">White Alabaster Sword</entry>
