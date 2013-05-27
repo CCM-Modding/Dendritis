@@ -6,7 +6,7 @@ import net.minecraftforge.common.EnumHelper;
 public class ToolMaterials {
 
     // proper values need to be given, current setting is diamond
-    
+
     public static EnumToolMaterial toolAMETHYST = EnumHelper.addToolMaterial("AMETHYST", 3, 1561, 8.0F, 3, 10);
     public static EnumToolMaterial toolBDIAMOND = EnumHelper.addToolMaterial("BDIAMOND", 3, 1561, 8.0F, 3, 10);
     public static EnumToolMaterial toolCITRINE = EnumHelper.addToolMaterial("CITRINE", 3, 1561, 8.0F, 3, 10);

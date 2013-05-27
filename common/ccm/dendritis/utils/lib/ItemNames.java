@@ -14,11 +14,11 @@ public final class ItemNames {
     public static final String pickBDiamond = "pickBDiamond";
     public static final String swordBDiamond = "swordBDiamond";
 
-    public static final String axeCitrtine = "axeCitrtine";
-    public static final String hoeCitrtine = "hoeCitrtine";
-    public static final String spadeCitrtine = "spadeCitrtine";
-    public static final String pickCitrtine = "pickCitrtine";
-    public static final String swordCitrtine = "swordCitrtine";
+    public static final String axeCitrine = "axeCitrine";
+    public static final String hoeCitrine = "hoeCitrine";
+    public static final String spadeCitrine = "spadeCitrine";
+    public static final String pickCitrine = "pickCitrine";
+    public static final String swordCitrine = "swordCitrine";
 
     public static final String axeCZirconia = "axeCZirconia";
     public static final String hoeCZirconia = "hoeCZirconia";
@@ -103,5 +103,5 @@ public final class ItemNames {
     public static final String spadeWAlabaster = "spadeWAlabaster";
     public static final String pickWAlabaster = "pickWAlabaster";
     public static final String swordWAlabaster = "swordWAlabaster";
-    
+
 }
