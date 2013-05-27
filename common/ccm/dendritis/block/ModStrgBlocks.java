@@ -35,10 +35,21 @@ public class ModStrgBlocks extends BaseBlock {
         // 2 is iron
         // 3 is diamond
 
-        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockAmethyst.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockAmethyst.ordinal(), "pickaxe", 3);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockBDiamond.ordinal(), "pickaxe", 3);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockCitrine.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockCZirconia.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockFuchsia.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockJet.ordinal(), "pickaxe", 4);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockOlivine.ordinal(), "pickaxe", 2);
         MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockOpal.ordinal(), "pickaxe", 2);
         MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockRuby.ordinal(), "pickaxe", 2);
         MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockSapphire.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockSQuartz.ordinal(), "pickaxe", 3);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockSun.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockTopaz.ordinal(), "pickaxe", 3);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockTurquoise.ordinal(), "pickaxe", 2);
+        MinecraftForge.setBlockHarvestLevel(this, EnumBlocks.blockWAlabaster.ordinal(), "pickaxe", 4);
     }
 
     @Override

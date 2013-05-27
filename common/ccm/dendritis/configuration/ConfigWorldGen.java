@@ -92,8 +92,8 @@ final class ConfigWorldGen extends Config {
         if (Properties.enableWorldGenBDiamond = config.get(gen + bdi, "Enable Generation of BlackDiamond", true).getBoolean(true)) {
             Handler.log(Dendritis.instance, "Loading BlackDiamond Configs");
 
-            Properties.bdiMaxHeight = config.get(gen + bdi, "Maximum Height", 50).getInt();
-            Properties.bdiMinHeight = config.get(gen + bdi, "Minimum Height", 25).getInt();
+            Properties.bdiMaxHeight = config.get(gen + bdi, "Maximum Height", 128).getInt();
+            Properties.bdiMinHeight = config.get(gen + bdi, "Minimum Height", 0).getInt();
             Properties.bdiSize = config.get(gen + bdi, "Max size of the Vein", 4).getInt();
             Properties.bdiDensity = config.get(gen + bdi, "Max veins per chunk", 10).getInt();
         }
@@ -127,8 +127,8 @@ final class ConfigWorldGen extends Config {
         if (Properties.enableWorldGenCZirconia = config.get(gen + czi, "Enable Generation of CubicZirconia", true).getBoolean(true)) {
             Handler.log(Dendritis.instance, "Loading CubicZirconia Configs");
 
-            Properties.cziMaxHeight = config.get(gen + czi, "Maximum Height", 50).getInt();
-            Properties.cziMinHeight = config.get(gen + czi, "Minimum Height", 25).getInt();
+            Properties.cziMaxHeight = config.get(gen + czi, "Maximum Height", 128).getInt();
+            Properties.cziMinHeight = config.get(gen + czi, "Minimum Height", 0).getInt();
             Properties.cziSize = config.get(gen + czi, "Max size of the Vein", 4).getInt();
             Properties.cziDensity = config.get(gen + czi, "Max veins per chunk", 10).getInt();
         }
@@ -247,8 +247,8 @@ final class ConfigWorldGen extends Config {
         if (Properties.enableWorldGenSQuartz = config.get(gen + squ, "Enable Generation of SmokyQuartz", true).getBoolean(true)) {
             Handler.log(Dendritis.instance, "Loading SmokyQuartz Configs");
 
-            Properties.squMaxHeight = config.get(gen + squ, "Maximum Height", 50).getInt();
-            Properties.squMinHeight = config.get(gen + squ, "Minimum Height", 25).getInt();
+            Properties.squMaxHeight = config.get(gen + squ, "Maximum Height", 128).getInt();
+            Properties.squMinHeight = config.get(gen + squ, "Minimum Height", 0).getInt();
             Properties.squSize = config.get(gen + squ, "Max size of the Vein", 4).getInt();
             Properties.squDensity = config.get(gen + squ, "Max veins per chunk", 10).getInt();
         }
