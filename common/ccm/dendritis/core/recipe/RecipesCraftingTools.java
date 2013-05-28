@@ -117,16 +117,7 @@ final class RecipesCraftingTools {
         CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(ModItems.swordWAlabaster), new Object[] { "x", "x", "y", 'x', "gemWAlabaster", 'y', "stickWood" }));
     }
 
-    /**
-     * Adds all the Shapeless recipes in the Mod.
-     */
-    @SuppressWarnings("unchecked")
-    private static void addShapeless() {
-
-    }
-
     public static void init() {
         addShaped();
-        addShapeless();
     }
 }
