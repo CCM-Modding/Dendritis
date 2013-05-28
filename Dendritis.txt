@@ -1,21 +1,60 @@
-Gems (Listed in order of durability from top to bottom 2500 - 1000)(ml stands for mining level)
-•	Jet -		- black gem used in the gem station		- found in end	- ml : 4
-•	Cubic Zirconia -	- light-teal gem used in the gem station		- found in neather	- ml : 3
-•	Fuchsia -		- fuchsia gem used in the gem station		- found in end	- ml : 4
-•	Turquoise -	- teal gem used in the gem station		- found in oceans	- ml : 2
-•	*Emerald -	- green gem used in the gem station		- found like default	- ml : 4
-•	Amethyst -	- purple gem used in the gem station		- found in neather	- ml : 3
-•	Citrine -		- yellow gem used in the gem station		- found in hills	- ml : 3
-•	Olivine-		- brown-green gem used in the gem station	- found in swamps	- ml : 3
-•	Smoky Quartz -	- brown gem used in the gem station		- found in neather	- ml : 2
-•	White Alabaster -	- white gem used in the gem station		- found in hills	- ml : 4
-•	Sapphire -	- blue gem used in the gem station		- found in swamps	- ml : 3
-•	Black Diamond -	- grey gem used in the gem station		- found in neather	- ml : 4
-•	Sun -		- yellow-orange gem used in the gem station	- found in deserts	- ml : 2
-•	*Diamond -	- teal gem used in the gem station		- found like default	- ml : 3
-•	Topaz -		- orange gem used in the gem station		- found in jungels	- ml : 2
-•	Ruby -		- red gem used in the gem station		- found in deserts	- ml : 3
-•	*Quartz -		- pearl gem used in the gem station		- found like default	- ml : 2
-•	Opal -		- off-white gem used in the gem station		- found in oceans	- ml : 2
+Dentritis
+
+Librum Dentritis (Book of Gems) - In game book that lists the avaliable gems.
+
+Gems
+•	Amethyst - purple gem found in the end
+•	Black Diamond - grey gem found in the neather
+•	Citrine - yellow gem
+•	Cubic Zirconia - light-teal gem found in the neather
+	~ Yes I know this gem can't be found naturaly in real life
+•	Fuchsia - fuchsia gem
+•	Jet - black gem found in the end
+•	Olivine - brown-green
+•	Opal - off-white gem
+•	Ruby - red gem
+•	Sapphire - blue gem
+•	Smoky Quartz - brown gem found in the neather
+•	Sun - yellow-orange gem
+•	Topaz - orange gem
+•	Turquoise - teal gem
+•	White Alabaster - white gem found in the end
+
+•	*Diamond - teal gem
+•	*Emerald - green gem
+•	*Quartz - pearl gem
 
 * Gems that are already in the game, the generation for these gem will not change
+
+Armor
+•	Unknown
+
+Tools/Weapons
+•	All the default stuff
+
+Blocks
+•	Ore
+•	Storage Blocks
+•	Half Blocks ?
+
+Tinkers Construct support:
+
+Gem Properties
+•	All gems will have a low handle modifyer
+•	Any tools with a gem part will have the Jeweled modifyer
+	~ This slightly lowers their durabilty but slightly increases their speed
+
+Armor
+•	None of the gems can be made into TC armor when that is finished
+
+Items
+•	All the various pieces that TC already has but in gem form, with the exception of Diamond, Emerald, and Quartz
+•	The "Book of Gems" will also list the stats for all the gems
+
+Hephaestus' Workshop support:
+
+Blocks
+•	Gem Setting Table - Used for creating gem tool heads
+
+Items
+•	Gem tool/weapon heads
