@@ -70,32 +70,32 @@ final class WorldRegistry {
 
     private static void registerBDiamond() {
         Handler.log(Dendritis.instance, "Registering World Generation for BlackDiamond");
-        WorldGenHandler.addNetherGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreBDiamond.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addNetherGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreBDiamond.ordinal()), Properties.bdiSize), Properties.bdiMinHeight, Properties.bdiMaxHeight, Properties.bdiDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerCitrine() {
         Handler.log(Dendritis.instance, "Registering World Generation for Citrine");
-        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreCitrine.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreCitrine.ordinal()), Properties.citSize), Properties.citMinHeight, Properties.citMaxHeight, Properties.citDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerCZirconia() {
         Handler.log(Dendritis.instance, "Registering World Generation for CubicZirconia");
-        WorldGenHandler.addNetherGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreCZirconia.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addNetherGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreCZirconia.ordinal()), Properties.cziSize), Properties.cziMinHeight, Properties.cziMaxHeight, Properties.cziDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerFuchsia() {
         Handler.log(Dendritis.instance, "Registering World Generation for Fuchsia");
-        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreFuchsia.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreFuchsia.ordinal()), Properties.fucSize), Properties.fucMinHeight, Properties.fucMaxHeight, Properties.fucDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerJet() {
         Handler.log(Dendritis.instance, "Registering World Generation for Jet");
-        WorldGenHandler.addEndGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreJet.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addEndGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreJet.ordinal()), Properties.jetSize), Properties.jetMinHeight, Properties.jetMaxHeight, Properties.jetDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerOlivine() {
         Handler.log(Dendritis.instance, "Registering World Generation for Olivine");
-        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreOlivine.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreOlivine.ordinal()), Properties.oliSize), Properties.oliMinHeight, Properties.oliMaxHeight, Properties.oliDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerOpal() {
@@ -115,27 +115,27 @@ final class WorldRegistry {
 
     private static void registerSQuartz() {
         Handler.log(Dendritis.instance, "Registering World Generation for SmokyQuartz");
-        WorldGenHandler.addNetherGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreSQuartz.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addNetherGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreSQuartz.ordinal()), Properties.squSize), Properties.squMinHeight, Properties.squMaxHeight, Properties.squDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerSun() {
         Handler.log(Dendritis.instance, "Registering World Generation for Sun");
-        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreSun.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreSun.ordinal()), Properties.sunSize), Properties.sunMinHeight, Properties.sunMaxHeight, Properties.sunDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerTopaz() {
         Handler.log(Dendritis.instance, "Registering World Generation for Topaz");
-        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreTopaz.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreTopaz.ordinal()), Properties.topSize), Properties.topMinHeight, Properties.topMaxHeight, Properties.topDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerTurquoise() {
         Handler.log(Dendritis.instance, "Registering World Generation for Turquoise");
-        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreTurquoise.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addSurfaceGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreTurquoise.ordinal()), Properties.turSize), Properties.turMinHeight, Properties.turMaxHeight, Properties.turDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
     private static void registerWAlabaster() {
         Handler.log(Dendritis.instance, "Registering World Generation for WhiteAlabaster");
-        WorldGenHandler.addEndGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreWAlabaster.ordinal()), Properties.ameSize), Properties.ameMinHeight, Properties.ameMaxHeight, Properties.ameDensity, WorldGenHandler.GenType.ORE_1.ordinal());
+        WorldGenHandler.addEndGenerator(new WorldGenMineable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreWAlabaster.ordinal()), Properties.walSize), Properties.walMinHeight, Properties.walMaxHeight, Properties.walDensity, WorldGenHandler.GenType.ORE_1.ordinal());
     }
 
 }

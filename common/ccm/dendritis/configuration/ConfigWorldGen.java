@@ -74,8 +74,8 @@ final class ConfigWorldGen extends Config {
         if (Properties.enableWorldGenAmethyst = config.get(gen + ame, "Enable Generation of Amethyst", true).getBoolean(true)) {
             Handler.log(Dendritis.instance, "Loading Amethyst Configs");
 
-            Properties.ameMaxHeight = config.get(gen + ame, "Maximum Height", 50).getInt();
-            Properties.ameMinHeight = config.get(gen + ame, "Minimum Height", 25).getInt();
+            Properties.ameMaxHeight = config.get(gen + ame, "Maximum Height", 65).getInt();
+            Properties.ameMinHeight = config.get(gen + ame, "Minimum Height", 15).getInt();
             Properties.ameSize = config.get(gen + ame, "Max size of the Vein", 4).getInt();
             Properties.ameDensity = config.get(gen + ame, "Max veins per chunk", 10).getInt();
         }
@@ -161,8 +161,8 @@ final class ConfigWorldGen extends Config {
         if (Properties.enableWorldGenJet = config.get(gen + jet, "Enable Generation of Jet", true).getBoolean(true)) {
             Handler.log(Dendritis.instance, "Loading Jet Configs");
 
-            Properties.jetMaxHeight = config.get(gen + jet, "Maximum Height", 50).getInt();
-            Properties.jetMinHeight = config.get(gen + jet, "Minimum Height", 25).getInt();
+            Properties.jetMaxHeight = config.get(gen + jet, "Maximum Height", 65).getInt();
+            Properties.jetMinHeight = config.get(gen + jet, "Minimum Height", 15).getInt();
             Properties.jetSize = config.get(gen + jet, "Max size of the Vein", 4).getInt();
             Properties.jetDensity = config.get(gen + jet, "Max veins per chunk", 10).getInt();
         }
@@ -317,8 +317,8 @@ final class ConfigWorldGen extends Config {
         if (Properties.enableWorldGenWAlabaster = config.get(gen + wal, "Enable Generation of WhiteAlabaster", true).getBoolean(true)) {
             Handler.log(Dendritis.instance, "Loading WhiteAlabaster Configs");
 
-            Properties.walMaxHeight = config.get(gen + wal, "Maximum Height", 50).getInt();
-            Properties.walMinHeight = config.get(gen + wal, "Minimum Height", 25).getInt();
+            Properties.walMaxHeight = config.get(gen + wal, "Maximum Height", 65).getInt();
+            Properties.walMinHeight = config.get(gen + wal, "Minimum Height", 15).getInt();
             Properties.walSize = config.get(gen + wal, "Max size of the Vein", 4).getInt();
             Properties.walDensity = config.get(gen + wal, "Max veins per chunk", 10).getInt();
         }
