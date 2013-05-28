@@ -9,35 +9,35 @@ final class ConfigWorldGen extends Config {
 
     final static String gen = "World Generation";
 
-    final static String ame = " of Amethyst";
+    final static String ame = " of Amethyst (End)";
 
-    final static String bdi = " of BlackDiamond";
+    final static String bdi = " of BlackDiamond (Neather)";
 
-    final static String cit = " of Citrine";
+    final static String cit = " of Citrine (Surface)";
 
-    final static String czi = " of CubicZirconia";
+    final static String czi = " of CubicZirconia (Neather)";
 
-    final static String fuc = " of Fuchsia";
+    final static String fuc = " of Fuchsia (Surface)";
 
-    final static String jet = " of Jet";
+    final static String jet = " of Jet (End)";
 
-    final static String oli = " of Olivine";
+    final static String oli = " of Olivine (Surface)";
 
-    final static String opal = " of Opal";
+    final static String opal = " of Opal (Surface)";
 
-    final static String ruby = " of Ruby";
+    final static String ruby = " of Ruby (Surface)";
 
-    final static String sap = " of Sapphire";
+    final static String sap = " of Sapphire (Surface)";
 
-    final static String squ = " of SmokyQuartz";
+    final static String squ = " of SmokyQuartz (Neather)";
 
-    final static String sun = " of Sun";
+    final static String sun = " of Sun (Surface)";
 
-    final static String top = " of Topaz";
+    final static String top = " of Topaz (Surface)";
 
-    final static String tur = " of Turquoise";
+    final static String tur = " of Turquoise (Surface)";
 
-    final static String wal = " of WhiteAlibaster";
+    final static String wal = " of WhiteAlibaster (End)";
 
     /**
      * Loads or creates the World Generation Section in the Configuration file.
