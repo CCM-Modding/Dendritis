@@ -24,8 +24,8 @@ public enum EnumGems {
     gemWAlabaster;
 
     public static void registerIcons(final IconRegister register) {
-        for (final EnumGems ingot : EnumGems.values()) {
-            ingot.icon = register.registerIcon(ingot.texture);
+        for (final EnumGems gem : EnumGems.values()) {
+            gem.icon = register.registerIcon(gem.texture);
         }
     }
 

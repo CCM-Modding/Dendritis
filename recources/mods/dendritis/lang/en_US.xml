@@ -6,9 +6,9 @@
 
 	<entry key="itemGroup.tabDendritis">Dendritis</entry>
 	<entry key="itemGroup.tabDendritisBlocks">Dendritis Blocks</entry>
+	<entry key="itemGroup.tabDendritisGems">Dendritis Gems</entry>
 	<entry key="itemGroup.tabDendritisItems">Dendritis Items</entry>
-	<entry key="itemGroup.tabDendritisFood">Dendritis Food</entry>
-	<entry key="itemGroup.tabDendritisUsable">Dendritis Usable</entry>
+	<entry key="itemGroup.tabDendritisTools">Dendritis Tools</entry>
 
 	<!-- ***************************** Items ************************** -->
 
