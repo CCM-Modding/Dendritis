@@ -122,6 +122,91 @@ public final class ModItems {
     public static Item pickWAlabaster;
     public static Item swordWAlabaster;
 
+    public static Item headAmethyst;
+    public static Item chestAmethyst;
+    public static Item legsAmethyst;
+    public static Item bootsAmethyst;
+
+    public static Item headBDiamond;
+    public static Item chestBDiamond;
+    public static Item legsBDiamond;
+    public static Item bootsBDiamond;
+
+    public static Item headCitrine;
+    public static Item chestCitrine;
+    public static Item legsCitrine;
+    public static Item bootsCitrine;
+
+    public static Item headCZirconia;
+    public static Item chestCZirconia;
+    public static Item legsCZirconia;
+    public static Item bootsCZirconia;
+
+    public static Item headEmerald;
+    public static Item chestEmerald;
+    public static Item legsEmerald;
+    public static Item bootsEmerald;
+
+    public static Item headFuchsia;
+    public static Item chestFuchsia;
+    public static Item legsFuchsia;
+    public static Item bootsFuchsia;
+
+    public static Item headJet;
+    public static Item chestJet;
+    public static Item legsJet;
+    public static Item bootsJet;
+
+    public static Item headOlivine;
+    public static Item chestOlivine;
+    public static Item legsOlivine;
+    public static Item bootsOlivine;
+
+    public static Item headOpal;
+    public static Item chestOpal;
+    public static Item legsOpal;
+    public static Item bootsOpal;
+
+    public static Item headQuartz;
+    public static Item chestQuartz;
+    public static Item legsQuartz;
+    public static Item bootsQuartz;
+
+    public static Item headRuby;
+    public static Item chestRuby;
+    public static Item legsRuby;
+    public static Item bootsRuby;
+
+    public static Item headSapphire;
+    public static Item chestSapphire;
+    public static Item legsSapphire;
+    public static Item bootsSapphire;
+
+    public static Item headSQuartz;
+    public static Item chestSQuartz;
+    public static Item legsSQuartz;
+    public static Item bootsSQuartz;
+
+    public static Item headSun;
+    public static Item chestSun;
+    public static Item legsSun;
+    public static Item bootsSun;
+
+    public static Item headTopaz;
+    public static Item chestTopaz;
+    public static Item legsTopaz;
+    public static Item bootsTopaz;
+
+    public static Item headTurquoise;
+    public static Item chestTurquoise;
+    public static Item legsTurquoise;
+    public static Item bootsTurquoise;
+
+    public static Item headWAlabaster;
+    public static Item chestWAlabaster;
+    public static Item legsWAlabaster;
+    public static Item bootsWAlabaster;
+
     /**
      * Creates all the Item Objects in the Mod.
      */

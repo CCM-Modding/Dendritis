@@ -13,7 +13,6 @@ public final class Registry {
         // Registers the GUI Handler
         NetworkRegistry.instance().registerGuiHandler(Dendritis.instance, Dendritis.proxy);
         OreDictionaryRegistry.oreDictionary();
-        TileRegistry.registerTileEntities();
         BlockRegistry.registerBlocks();
         WorldRegistry.registerWorld();
         RecipeHandler.init();

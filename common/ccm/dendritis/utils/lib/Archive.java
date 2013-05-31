@@ -18,5 +18,17 @@ public final class Archive {
 
     public static final String TAB_DENDRITIS = "tabDendritis";
 
+    public static final String TAB_DENDRITIS_BLOCKS = "tabDendritisBlocks";
+
+    public static final String TAB_DENDRITIS_GEMS = "tabDendritisGems";
+
+    public static final String TAB_DENDRITIS_ITEMS = "tabDendritisItems";
+
+    public static final String TAB_DENDRITIS_TOOLS = "tabDendritisTools";
+
+    public static final String TAB_DENDRITIS_ARMOR = "tabDendritisArmor";
+
+    public static final String TAB_DENDRITIS_TC = "tabDendritisTC";
+
     public static final String INVALID_FINGERPRINT_MSG = "error.invalidFingerPrint";
 }

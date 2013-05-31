@@ -31,11 +31,23 @@ public class DendritisTabs {
      */
     public static CreativeTab tabDendritisTools;
 
+    /**
+     * Contains All the Armor Items
+     */
+    public static CreativeTab tabDendritisArmor;
+
+    /**
+     * Contains All the TC Items
+     */
+    public static CreativeTab tabDendritisTC;
+
     public static void initTabs() {
-        tabDendritisBlocks = new CreativeTab(Archive.TAB_DENDRITIS);
-        tabDendritisGems = new CreativeTab(Archive.TAB_DENDRITIS);
-        tabDendritisItems = new CreativeTab(Archive.TAB_DENDRITIS);
-        tabDendritisTools = new CreativeTab(Archive.TAB_DENDRITIS);
+        tabDendritisBlocks = new CreativeTab(Archive.TAB_DENDRITIS_BLOCKS);
+        tabDendritisGems = new CreativeTab(Archive.TAB_DENDRITIS_GEMS);
+        tabDendritisItems = new CreativeTab(Archive.TAB_DENDRITIS_ITEMS);
+        tabDendritisTools = new CreativeTab(Archive.TAB_DENDRITIS_TOOLS);
+        tabDendritisArmor = new CreativeTab(Archive.TAB_DENDRITIS_ARMOR);
+        tabDendritisTC = new CreativeTab(Archive.TAB_DENDRITIS_TC);
     }
 
     public static void initTabIcons() {
@@ -43,5 +55,7 @@ public class DendritisTabs {
         tabDendritisGems.init(EHandler.getItem(EnumGems.gemAmethyst));
         tabDendritisItems.init(EHandler.getItem(EnumMain.handle));
         tabDendritisTools.init(new ItemStack(ModItems.swordAmethyst));
+        tabDendritisArmor.init(new ItemStack(ModItems.swordAmethyst));
+        tabDendritisTC.init(new ItemStack(ModItems.swordAmethyst));
     }
 }
