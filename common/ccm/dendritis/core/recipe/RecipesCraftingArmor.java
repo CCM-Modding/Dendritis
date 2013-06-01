@@ -1,14 +1,17 @@
 package ccm.dendritis.core.recipe;
 
-final class RecipesCraftingArmor {
+final class RecipesCraftingArmor
+{
 
     /**
      * Adds all the Shaped recipes in the Mod.
      */
     @SuppressWarnings("unchecked")
-    private static void addShaped() {}
+    private static void addShaped()
+    {}
 
-    public static void init() {
+    public static void init()
+    {
         addShaped();
     }
 }

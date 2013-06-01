@@ -1,6 +1,7 @@
 package ccm.dendritis.creativetab;
 
 import net.minecraft.item.ItemStack;
+
 import ccm.dendritis.core.handlers.EHandler;
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
@@ -9,7 +10,8 @@ import ccm.dendritis.item.ModItems;
 import ccm.dendritis.utils.lib.Archive;
 import ccm.nucleum_omnium.creativetab.CreativeTab;
 
-public class DendritisTabs {
+public class DendritisTabs
+{
 
     /**
      * Tabs that Contains All the blocks
@@ -41,7 +43,8 @@ public class DendritisTabs {
      */
     public static CreativeTab tabDendritisTC;
 
-    public static void initTabs() {
+    public static void initTabs()
+    {
         tabDendritisBlocks = new CreativeTab(Archive.TAB_DENDRITIS_BLOCKS);
         tabDendritisGems = new CreativeTab(Archive.TAB_DENDRITIS_GEMS);
         tabDendritisItems = new CreativeTab(Archive.TAB_DENDRITIS_ITEMS);
@@ -50,7 +53,8 @@ public class DendritisTabs {
         tabDendritisTC = new CreativeTab(Archive.TAB_DENDRITIS_TC);
     }
 
-    public static void initTabIcons() {
+    public static void initTabIcons()
+    {
         tabDendritisBlocks.init(EHandler.getItem(EnumBlocks.blockAmethyst));
         tabDendritisGems.init(EHandler.getItem(EnumGems.gemAmethyst));
         tabDendritisItems.init(EHandler.getItem(EnumMain.handle));

@@ -1,6 +1,7 @@
 package ccm.dendritis.utils.registry;
 
 import net.minecraftforge.oredict.OreDictionary;
+
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.core.handlers.EHandler;
 import ccm.dendritis.enums.EnumBlocks;
@@ -8,12 +9,14 @@ import ccm.dendritis.enums.EnumGems;
 import ccm.dendritis.enums.EnumOres;
 import ccm.nucleum_omnium.handler.Handler;
 
-final class OreDictionaryRegistry {
+final class OreDictionaryRegistry
+{
 
     /**
      * Registers all the Entries to the Ore Dictionary.
      */
-    protected static void oreDictionary() {
+    protected static void oreDictionary()
+    {
         Handler.log(Dendritis.instance, "Adding Ore Dictionary Entries");
 
         OreDictionary.registerOre("gemAmethyst", EHandler.getItem(EnumGems.gemAmethyst));

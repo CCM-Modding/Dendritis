@@ -2,10 +2,12 @@ package ccm.dendritis.enums;
 
 import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.util.Icon;
+
 import ccm.dendritis.utils.lib.Locations;
 import ccm.nucleum_omnium.helper.TextureHelper;
 
-public enum EnumGems {
+public enum EnumGems
+{
 
     gemAmethyst,
     gemBDiamond,
@@ -23,21 +25,24 @@ public enum EnumGems {
     gemTurquoise,
     gemWAlabaster;
 
-    public static void registerIcons(final IconRegister register) {
-        for (final EnumGems gem : EnumGems.values()) {
+    public static void registerIcons(final IconRegister register)
+    {
+        for (final EnumGems gem : EnumGems.values()){
             gem.icon = register.registerIcon(gem.texture);
         }
     }
 
-    private Icon icon;
+    private Icon        icon;
 
     public final String texture;
 
-    private EnumGems() {
+    private EnumGems()
+    {
         this.texture = TextureHelper.getTextureFromName(this.name(), Locations.TEXTURE + "gems/");
     }
 
-    public Icon getIcon() {
+    public Icon getIcon()
+    {
         return this.icon;
     }
 }
