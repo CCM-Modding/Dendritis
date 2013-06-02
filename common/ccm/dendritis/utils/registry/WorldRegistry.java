@@ -1,14 +1,5 @@
 package ccm.dendritis.utils.registry;
 
-import net.minecraft.item.ItemStack;
-
-import ccm.dendritis.Dendritis;
-import ccm.dendritis.block.ModBlocks;
-import ccm.dendritis.enums.EnumOres;
-import ccm.dendritis.utils.lib.Properties;
-import ccm.nucleum_omnium.handler.Handler;
-import ccm.nucleum_omnium.world.generator.WorldGenHandler;
-import ccm.nucleum_omnium.world.generator.WorldGenMinable;
 
 final class WorldRegistry
 {
@@ -19,7 +10,7 @@ final class WorldRegistry
     protected static void registerWorld()
     {
 
-        if (Properties.enableWorldGenAmethyst){
+        /*if (Properties.enableWorldGenAmethyst){
             registerAmethyst();
         }
         if (Properties.enableWorldGenBDiamond){
@@ -63,10 +54,10 @@ final class WorldRegistry
         }
         if (Properties.enableWorldGenWAlabaster){
             registerWAlabaster();
-        }
+        }*/
     }
 
-    private static void registerAmethyst()
+    /*private static void registerAmethyst()
     {
         Handler.log(Dendritis.instance, "Registering World Generation for Amethyst");
         WorldGenHandler.addEndGenerator(new WorldGenMinable(new ItemStack(ModBlocks.ores.blockID, 1, EnumOres.oreAmethyst.ordinal()), Properties.ameSize),
@@ -214,6 +205,6 @@ final class WorldRegistry
                                         Properties.walMaxHeight,
                                         Properties.walDensity,
                                         WorldGenHandler.GenType.ORE_1.ordinal());
-    }
+    }*/
 
 }

@@ -1,6 +1,7 @@
 package ccm.dendritis.block;
 
 import java.util.List;
+import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -9,11 +10,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Icon;
 import net.minecraftforge.common.MinecraftForge;
-
+import ccm.dendritis.enums.EnumOres;
+import ccm.dendritis.utils.lib.Properties;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-
-import ccm.dendritis.enums.EnumOres;
 
 public class ModOres extends BaseBlock
 {
@@ -62,6 +62,14 @@ public class ModOres extends BaseBlock
     {
         this.blockIcon = ores[meta].getIcon();
         return this.blockIcon;
+    }
+
+    /**
+     * Returns the ID of the items to drop on destruction.
+     */
+    @Override
+    public int idDropped(int par1, Random par2Random, int par3) {
+        return Properties.itemGemsID;
     }
 
     // Makes sure pick block works right
