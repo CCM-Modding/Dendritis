@@ -2,6 +2,8 @@ package ccm.dendritis;
 
 import java.util.logging.Level;
 
+import lib.org.modstats.ModstatInfo;
+
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.FingerprintWarning;
 import cpw.mods.fml.common.Mod.Init;
@@ -38,6 +40,7 @@ import ccm.nucleum_omnium.handler.LanguageHandler;
             serverSideRequired = false,
             channels = Archive.MOD_CHANNEL,
             packetHandler = PacketHandler.class)
+@ModstatInfo(prefix = Archive.MOD_PREFIX)
 public class Dendritis extends BaseMod implements IMod
 {
 
