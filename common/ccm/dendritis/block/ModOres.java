@@ -10,10 +10,12 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Icon;
 import net.minecraftforge.common.MinecraftForge;
-import ccm.dendritis.enums.EnumOres;
-import ccm.dendritis.utils.lib.Properties;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+
+import ccm.dendritis.enums.EnumOres;
+import ccm.dendritis.utils.lib.Properties;
 
 public class ModOres extends BaseBlock
 {
@@ -68,7 +70,8 @@ public class ModOres extends BaseBlock
      * Returns the ID of the items to drop on destruction.
      */
     @Override
-    public int idDropped(int par1, Random par2Random, int par3) {
+    public int idDropped(final int par1, final Random par2Random, final int par3)
+    {
         return Properties.itemGemsID;
     }
 

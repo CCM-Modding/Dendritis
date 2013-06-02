@@ -6,14 +6,12 @@ final class RecipesCrafting
     /**
      * Adds all the Shaped recipes in the Mod.
      */
-    @SuppressWarnings("unchecked")
     private static void addShaped()
     {}
 
     /**
      * Adds all the Shapeless recipes in the Mod.
      */
-    @SuppressWarnings("unchecked")
     private static void addShapeless()
     {}
 
