@@ -29,7 +29,8 @@ public class Config
             // Loads a pre-existing Configuration file.
             config.load();
             ConfigItems.configItems(config);
-            ConfigTools.configUsable(config);
+            ConfigTools.configTools(config);
+            ConfigArmors.configArmors(config);
             ConfigWorldGen.configWorldGen(config);
             ConfigBlocks.configBlocks(config);
         }catch(final Exception e){

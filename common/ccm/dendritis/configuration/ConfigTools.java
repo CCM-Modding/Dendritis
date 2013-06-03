@@ -15,7 +15,7 @@ final class ConfigTools extends Config
      * @param config
      *            The Configuration file that is being edited.
      */
-    protected static void configUsable(final Configuration config)
+    protected static void configTools(final Configuration config)
     {
         Handler.log(Dendritis.instance, "Loading Tools Configs");
 
