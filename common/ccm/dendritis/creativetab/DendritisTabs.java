@@ -1,12 +1,12 @@
 package ccm.dendritis.creativetab;
 
 import net.minecraft.item.ItemStack;
-
 import ccm.dendritis.core.handlers.EHandler;
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
 import ccm.dendritis.enums.EnumMain;
-import ccm.dendritis.item.ModItems;
+import ccm.dendritis.item.ModArmors;
+import ccm.dendritis.item.ModTools;
 import ccm.dendritis.utils.lib.Archive;
 import ccm.nucleum_omnium.creativetab.CreativeTab;
 
@@ -58,8 +58,8 @@ public class DendritisTabs
         tabDendritisBlocks.init(EHandler.getItem(EnumBlocks.blockAmethyst));
         tabDendritisGems.init(EHandler.getItem(EnumGems.gemAmethyst));
         tabDendritisItems.init(EHandler.getItem(EnumMain.handle));
-        tabDendritisTools.init(new ItemStack(ModItems.swordAmethyst));
-        tabDendritisArmor.init(new ItemStack(ModItems.swordAmethyst));
-        tabDendritisTC.init(new ItemStack(ModItems.swordAmethyst));
+        tabDendritisTools.init(new ItemStack(ModTools.swordAmethyst));
+        tabDendritisArmor.init(new ItemStack(ModArmors.chestAmethyst));
+        tabDendritisTC.init(EHandler.getItem(EnumMain.handle));
     }
 }

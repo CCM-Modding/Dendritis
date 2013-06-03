@@ -189,6 +189,91 @@ public class Properties
 
     public static int     swordWAlabasterID;
 
+    public static int     headAmethystID;
+    public static int     chestAmethystID;
+    public static int     legsAmethystID;
+    public static int     bootsAmethystID;
+
+    public static int     headBDiamondID;
+    public static int     chestBDiamondID;
+    public static int     legsBDiamondID;
+    public static int     bootsBDiamondID;
+
+    public static int     headCitrineID;
+    public static int     chestCitrineID;
+    public static int     legsCitrineID;
+    public static int     bootsCitrineID;
+
+    public static int     headCZirconiaID;
+    public static int     chestCZirconiaID;
+    public static int     legsCZirconiaID;
+    public static int     bootsCZirconiaID;
+
+    public static int     headEmeraldID;
+    public static int     chestEmeraldID;
+    public static int     legsEmeraldID;
+    public static int     bootsEmeraldID;
+
+    public static int     headFuchsiaID;
+    public static int     chestFuchsiaID;
+    public static int     legsFuchsiaID;
+    public static int     bootsFuchsiaID;
+
+    public static int     headJetID;
+    public static int     chestJetID;
+    public static int     legsJetID;
+    public static int     bootsJetID;
+
+    public static int     headOlivineID;
+    public static int     chestOlivineID;
+    public static int     legsOlivineID;
+    public static int     bootsOlivineID;
+
+    public static int     headOpalID;
+    public static int     chestOpalID;
+    public static int     legsOpalID;
+    public static int     bootsOpalID;
+
+    public static int     headQuartzID;
+    public static int     chestQuartzID;
+    public static int     legsQuartzID;
+    public static int     bootsQuartzID;
+
+    public static int     headRubyID;
+    public static int     chestRubyID;
+    public static int     legsRubyID;
+    public static int     bootsRubyID;
+
+    public static int     headSapphireID;
+    public static int     chestSapphireID;
+    public static int     legsSapphireID;
+    public static int     bootsSapphireID;
+
+    public static int     headSQuartzID;
+    public static int     chestSQuartzID;
+    public static int     legsSQuartzID;
+    public static int     bootsSQuartzID;
+
+    public static int     headSunID;
+    public static int     chestSunID;
+    public static int     legsSunID;
+    public static int     bootsSunID;
+
+    public static int     headTopazID;
+    public static int     chestTopazID;
+    public static int     legsTopazID;
+    public static int     bootsTopazID;
+
+    public static int     headTurquoiseID;
+    public static int     chestTurquoiseID;
+    public static int     legsTurquoiseID;
+    public static int     bootsTurquoiseID;
+
+    public static int     headWAlabasterID;
+    public static int     chestWAlabasterID;
+    public static int     legsWAlabasterID;
+    public static int     bootsWAlabasterID;
+
     /*
      * ***********************************************
      * Blocks IDs ***********************************************

@@ -14,4 +14,6 @@ public final class Locations
     public static final String SERVER_PROXY  = proxy + "CommonProxy";
 
     public static final String GUI           = "/mods/" + Archive.MOD_ID + "/textures/guis/";
+
+    public static final String ARMOR         = "/mods/" + Archive.MOD_ID + "/textures/armor/";
 }

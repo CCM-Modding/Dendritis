@@ -9,6 +9,8 @@
 	<entry key="itemGroup.tabDendritisGems">Dendritis Gems</entry>
 	<entry key="itemGroup.tabDendritisItems">Dendritis Items</entry>
 	<entry key="itemGroup.tabDendritisTools">Dendritis Tools</entry>
+	<entry key="itemGroup.tabDendritisArmor">Dendritis Armors</entry>
+	<entry key="itemGroup.tabDendritisTC">Dendritis TC Parts</entry>
 
 	<!-- ***************************** Items ************************** -->
 
@@ -167,6 +169,93 @@
 	<entry key="item.spadeWAlabaster.name">White Alabaster Shovel</entry>
 	<entry key="item.pickWAlabaster.name">White Alabaster Pickaxe</entry>
 	<entry key="item.swordWAlabaster.name">White Alabaster Sword</entry>
+
+	<!-- ******************************** Armors ****************************** -->
+
+	<entry key="item.headAmethyst.name">Amethyst Helmet</entry>
+	<entry key="item.chestAmethyst.name">Amethyst Chestplate</entry>
+	<entry key="item.legsAmethyst.name">Amethyst Greeves</entry>
+	<entry key="item.bootsAmethyst.name">Amethyst Boots</entry>
+
+	<entry key="item.headBDiamond.name">BDiamond Helmet</entry>
+	<entry key="item.chestBDiamond.name">BDiamond Chestplate</entry>
+	<entry key="item.legsBDiamond.name">BDiamond Greeves</entry>
+	<entry key="item.bootsBDiamond.name">BDiamond Boots</entry>
+
+	<entry key="item.headCitrine.name">Citrine Helmet</entry>
+	<entry key="item.chestCitrine.name">Citrine Chestplate</entry>
+	<entry key="item.legsCitrine.name">Citrine Greeves</entry>
+	<entry key="item.bootsCitrine.name">Citrine Boots</entry>
+
+	<entry key="item.headCZirconia.name">CZirconia Helmet</entry>
+	<entry key="item.chestCZirconia.name">CZirconia Chestplate</entry>
+	<entry key="item.legsCZirconia.name">CZirconia Greeves</entry>
+	<entry key="item.bootsCZirconia.name">CZirconia Boots</entry>
+
+	<entry key="item.headEmerald.name">Emerald Helmet</entry>
+	<entry key="item.chestEmerald.name">Emerald Chestplate</entry>
+	<entry key="item.legsEmerald.name">Emerald Greeves</entry>
+	<entry key="item.bootsEmerald.name">Emerald Boots</entry>
+
+	<entry key="item.headFuchisa.name">Fuchisa Helmet</entry>
+	<entry key="item.chestFuchisa.name">Fuchisa Chestplate</entry>
+	<entry key="item.legsFuchisa.name">Fuchisa Greeves</entry>
+	<entry key="item.bootsFuchisa.name">Fuchisa Boots</entry>
+
+	<entry key="item.headJet.name">Jet Helmet</entry>
+	<entry key="item.chestJet.name">Jet Chestplate</entry>
+	<entry key="item.legsJet.name">Jet Greeves</entry>
+	<entry key="item.bootsJet.name">Jet Boots</entry>
+
+	<entry key="item.headOlivine.name">Olivine Helmet</entry>
+	<entry key="item.chestOlivine.name">Olivine Chestplate</entry>
+	<entry key="item.legsOlivine.name">Olivine Greeves</entry>
+	<entry key="item.bootsOlivine.name">Olivine Boots</entry>
+
+	<entry key="item.headOpal.name">Opal Helmet</entry>
+	<entry key="item.chestOpal.name">Opal Chestplate</entry>
+	<entry key="item.legsOpal.name">Opal Greeves</entry>
+	<entry key="item.bootsOpal.name">Opal Boots</entry>
+
+	<entry key="item.headQuartz.name">Quartz Helmet</entry>
+	<entry key="item.chestQuartz.name">Quartz Chestplate</entry>
+	<entry key="item.legsQuartz.name">Quartz Greeves</entry>
+	<entry key="item.bootsQuartz.name">Quartz Boots</entry>
+
+	<entry key="item.headRuby.name">Ruby Helmet</entry>
+	<entry key="item.chestRuby.name">Ruby Chestplate</entry>
+	<entry key="item.legsRuby.name">Ruby Greeves</entry>
+	<entry key="item.bootsRuby.name">Ruby Boots</entry>
+
+	<entry key="item.headSapphire.name">Sapphire Helmet</entry>
+	<entry key="item.chestSapphire.name">Sapphire Chestplate</entry>
+	<entry key="item.legsSapphire.name">Sapphire Greeves</entry>
+	<entry key="item.bootsSapphire.name">Sapphire Boots</entry>
+
+	<entry key="item.headSQuartz.name">SQuartz Helmet</entry>
+	<entry key="item.chestSQuartz.name">SQuartz Chestplate</entry>
+	<entry key="item.legsSQuartz.name">SQuartz Greeves</entry>
+	<entry key="item.bootsSQuartz.name">SQuartz Boots</entry>
+
+	<entry key="item.headSun.name">Sun Helmet</entry>
+	<entry key="item.chestSun.name">Sun Chestplate</entry>
+	<entry key="item.legsSun.name">Sun Greeves</entry>
+	<entry key="item.bootsSun.name">Sun Boots</entry>
+
+	<entry key="item.headTopaz.name">Topaz Helmet</entry>
+	<entry key="item.chestTopaz.name">Topaz Chestplate</entry>
+	<entry key="item.legsTopaz.name">Topaz Greeves</entry>
+	<entry key="item.bootsTopaz.name">Topaz Boots</entry>
+
+	<entry key="item.headTurquoise.name">Turquoise Helmet</entry>
+	<entry key="item.chestTurquoise.name">Turquoise Chestplate</entry>
+	<entry key="item.legsTurquoise.name">Turquoise Greeves</entry>
+	<entry key="item.bootsTurquoise.name">Turquoise Boots</entry>
+
+	<entry key="item.headWAlabaster.name">WAlabaster Helmet</entry>
+	<entry key="item.chestWAlabaster.name">WAlabaster Chestplate</entry>
+	<entry key="item.legsWAlabaster.name">WAlabaster Greeves</entry>
+	<entry key="item.bootsWAlabaster.name">WAlabaster Boots</entry>
 
 	<!-- ******************************** Errors ****************************** -->
 

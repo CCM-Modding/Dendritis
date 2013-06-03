@@ -1,6 +1,6 @@
 package ccm.dendritis.utils.lib;
 
-public final class ItemNames
+public final class NamesTool
 {
 
     public static final String axeAmethyst     = "axeAmethyst";

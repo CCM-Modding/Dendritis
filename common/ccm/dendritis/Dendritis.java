@@ -3,7 +3,21 @@ package ccm.dendritis;
 import java.util.logging.Level;
 
 import lib.org.modstats.ModstatInfo;
-
+import ccm.dendritis.block.ModBlocks;
+import ccm.dendritis.configuration.Config;
+import ccm.dendritis.core.proxy.CommonProxy;
+import ccm.dendritis.creativetab.DendritisTabs;
+import ccm.dendritis.item.ModArmors;
+import ccm.dendritis.item.ModItems;
+import ccm.dendritis.item.ModTools;
+import ccm.dendritis.network.PacketHandler;
+import ccm.dendritis.utils.lib.Archive;
+import ccm.dendritis.utils.lib.Locations;
+import ccm.dendritis.utils.registry.Registry;
+import ccm.nucleum_omnium.BaseMod;
+import ccm.nucleum_omnium.IMod;
+import ccm.nucleum_omnium.handler.Handler;
+import ccm.nucleum_omnium.handler.LanguageHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.FingerprintWarning;
 import cpw.mods.fml.common.Mod.Init;
@@ -16,20 +30,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
-
-import ccm.dendritis.block.ModBlocks;
-import ccm.dendritis.configuration.Config;
-import ccm.dendritis.core.proxy.CommonProxy;
-import ccm.dendritis.creativetab.DendritisTabs;
-import ccm.dendritis.item.ModItems;
-import ccm.dendritis.network.PacketHandler;
-import ccm.dendritis.utils.lib.Archive;
-import ccm.dendritis.utils.lib.Locations;
-import ccm.dendritis.utils.registry.Registry;
-import ccm.nucleum_omnium.BaseMod;
-import ccm.nucleum_omnium.IMod;
-import ccm.nucleum_omnium.handler.Handler;
-import ccm.nucleum_omnium.handler.LanguageHandler;
 
 @Mod(modid = Archive.MOD_ID,
      name = Archive.MOD_NAME,
@@ -79,6 +79,10 @@ public class Dendritis extends BaseMod implements IMod
             DendritisTabs.initTabs();
 
             ModItems.init();
+
+            ModTools.init();
+
+            ModArmors.init();
 
             ModBlocks.init();
 
