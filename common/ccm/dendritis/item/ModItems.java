@@ -438,5 +438,91 @@ public final class ModItems
         spadeWAlabaster = new DummySpade(Properties.spadeWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName(ItemNames.spadeWAlabaster);
         pickWAlabaster = new DummyPick(Properties.pickWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName(ItemNames.pickWAlabaster);
         swordWAlabaster = new DummySword(Properties.swordWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName(ItemNames.swordWAlabaster);
+        
+        headAmethyst = new DummyArmor(Properties.headAmethystID, ArmorMaterials.armorAMETHYST).setUnlocalizedName(ItemNames.headAmethyst);
+        headAmethyst = new DummyArmor(Properties.chestAmethystID, ArmorMaterials.armorAMETHYST).setUnlocalizedName(ItemNames.chestAmethyst);
+        headAmethyst = new DummyArmor(Properties.legsAmethystID, ArmorMaterials.armorAMETHYST).setUnlocalizedName(ItemNames.legsAmethyst);
+        headAmethyst = new DummyArmor(Properties.bootsAmethystID, ArmorMaterials.armorAMETHYST).setUnlocalizedName(ItemNames.bootsAmethyst);
+        
+        headAmethyst = new DummyArmor(Properties.headBDIAMONDID, ArmorMaterials.armorBDIAMOND).setUnlocalizedName(ItemNames.headBDIAMOND);
+        headAmethyst = new DummyArmor(Properties.chestBDIAMONDID, ArmorMaterials.armorBDIAMOND).setUnlocalizedName(ItemNames.chestBDIAMOND);
+        headAmethyst = new DummyArmor(Properties.legsBDIAMONDID, ArmorMaterials.armorBDIAMOND).setUnlocalizedName(ItemNames.legsBDIAMOND);
+        headAmethyst = new DummyArmor(Properties.bootsBDIAMONDID, ArmorMaterials.armorBDIAMOND).setUnlocalizedName(ItemNames.bootsBDIAMOND);
+        
+        headAmethyst = new DummyArmor(Properties.headCITRINEID, ArmorMaterials.armorCITRINEID).setUnlocalizedName(ItemNames.headCITRINE);
+        headAmethyst = new DummyArmor(Properties.chestCITRINEID, ArmorMaterials.armorCITRINEID).setUnlocalizedName(ItemNames.chestCITRINE);
+        headAmethyst = new DummyArmor(Properties.legsCITRINEID, ArmorMaterials.armorCITRINEID).setUnlocalizedName(ItemNames.legsCITRINE);
+        headAmethyst = new DummyArmor(Properties.bootsCITRINEID, ArmorMaterials.armorCITRINEID).setUnlocalizedName(ItemNames.bootsCITRINE);
+        
+        headAmethyst = new DummyArmor(Properties.headCZIRCONIA, ArmorMaterials.armorCZIRCONIA).setUnlocalizedName(ItemNames.headCZIRCONIA);
+        headAmethyst = new DummyArmor(Properties.chestCZIRCONIA, ArmorMaterials.armorCZIRCONIA).setUnlocalizedName(ItemNames.chestCZIRCONIA);
+        headAmethyst = new DummyArmor(Properties.legsCZIRCONIA, ArmorMaterials.armorCZIRCONIA).setUnlocalizedName(ItemNames.legsCZIRCONIA);
+        headAmethyst = new DummyArmor(Properties.bootsCZIRCONIA, ArmorMaterials.armorCZIRCONIA).setUnlocalizedName(ItemNames.bootsCZIRCONIA);
+        
+        headAmethyst = new DummyArmor(Properties.headEMERALD, ArmorMaterials.armorEMERALD).setUnlocalizedName(ItemNames.headEMERALD);
+        headAmethyst = new DummyArmor(Properties.chestEMERALD, ArmorMaterials.armorEMERALD).setUnlocalizedName(ItemNames.chestEMERALD);
+        headAmethyst = new DummyArmor(Properties.legsEMERALD, ArmorMaterials.armorEMERALD).setUnlocalizedName(ItemNames.legsEMERALD);
+        headAmethyst = new DummyArmor(Properties.bootsEMERALD, ArmorMaterials.armorEMERALD).setUnlocalizedName(ItemNames.bootsEMERALD);
+        
+        headAmethyst = new DummyArmor(Properties.headFUCHSIA, ArmorMaterials.armorFUCHSIA).setUnlocalizedName(ItemNames.headFUCHSIA);
+        headAmethyst = new DummyArmor(Properties.chestFUCHSIA, ArmorMaterials.armorFUCHSIA).setUnlocalizedName(ItemNames.chestFUCHSIA);
+        headAmethyst = new DummyArmor(Properties.legsFUCHSIA, ArmorMaterials.armorFUCHSIA).setUnlocalizedName(ItemNames.legsFUCHSIA);
+        headAmethyst = new DummyArmor(Properties.bootsFUCHSIA, ArmorMaterials.armorFUCHSIA).setUnlocalizedName(ItemNames.bootsFUCHSIA);
+        
+        headAmethyst = new DummyArmor(Properties.headJET, ArmorMaterials.armorJET).setUnlocalizedName(ItemNames.headJET);
+        headAmethyst = new DummyArmor(Properties.chestJET, ArmorMaterials.armorJET).setUnlocalizedName(ItemNames.chestdJET);
+        headAmethyst = new DummyArmor(Properties.legsJET, ArmorMaterials.armorJET).setUnlocalizedName(ItemNames.legsJET);
+        headAmethyst = new DummyArmor(Properties.bootsJET, ArmorMaterials.armorJET).setUnlocalizedName(ItemNames.bootsJET);
+        
+        headAmethyst = new DummyArmor(Properties.headOLIVINE, ArmorMaterials.armorOLIVINE).setUnlocalizedName(ItemNames.headOLIVINE);
+        headAmethyst = new DummyArmor(Properties.chestOLIVINE, ArmorMaterials.armorOLIVINE).setUnlocalizedName(ItemNames.chestOLIVINE);
+        headAmethyst = new DummyArmor(Properties.legsOLIVINE, ArmorMaterials.armorOLIVINE).setUnlocalizedName(ItemNames.legsOLIVINE);
+        headAmethyst = new DummyArmor(Properties.bootsOLIVINE, ArmorMaterials.armorOLIVINE).setUnlocalizedName(ItemNames.bootsOLIVINE);
+         
+        headAmethyst = new DummyArmor(Properties.headOPAL, ArmorMaterials.armorOPAL).setUnlocalizedName(ItemNames.headOPAL);
+        headAmethyst = new DummyArmor(Properties.chestOPAL, ArmorMaterials.armorOPAL).setUnlocalizedName(ItemNames.chestOPAL);
+        headAmethyst = new DummyArmor(Properties.legsOPAL, ArmorMaterials.armorOPAL).setUnlocalizedName(ItemNames.legsOPAL);
+        headAmethyst = new DummyArmor(Properties.bootsOPAL, ArmorMaterials.armorOPAL).setUnlocalizedName(ItemNames.bootsOPAL);
+        
+        headAmethyst = new DummyArmor(Properties.headQUARTZ, ArmorMaterials.armorQUARTZ).setUnlocalizedName(ItemNames.headQUARTZ);
+        headAmethyst = new DummyArmor(Properties.chestQUARTZ, ArmorMaterials.armorQUARTZ).setUnlocalizedName(ItemNames.chestQUARTZ);
+        headAmethyst = new DummyArmor(Properties.legsQUARTZ, ArmorMaterials.armorQUARTZ).setUnlocalizedName(ItemNames.legsQUARTZ);
+        headAmethyst = new DummyArmor(Properties.bootsQUARTZ, ArmorMaterials.armorQUARTZ).setUnlocalizedName(ItemNames.bootsQUARTZ);
+        
+        headAmethyst = new DummyArmor(Properties.headRUBY, ArmorMaterials.armorRUBY).setUnlocalizedName(ItemNames.headRUBY);
+        headAmethyst = new DummyArmor(Properties.chestRUBY, ArmorMaterials.armorRUBY).setUnlocalizedName(ItemNames.chestRUBY);
+        headAmethyst = new DummyArmor(Properties.legsRUBY, ArmorMaterials.armorRUBY).setUnlocalizedName(ItemNames.legsRUBY);
+        headAmethyst = new DummyArmor(Properties.bootsdRUBY, ArmorMaterials.armorRUBY).setUnlocalizedName(ItemNames.bootsRUBY);
+        
+        headAmethyst = new DummyArmor(Properties.headSAPPHIRE, ArmorMaterials.armorSAPPHIRE).setUnlocalizedName(ItemNames.headSAPPHIRE);
+        headAmethyst = new DummyArmor(Properties.chestSAPPHIRE, ArmorMaterials.armorSAPPHIRE).setUnlocalizedName(ItemNames.chestSAPPHIRE);
+        headAmethyst = new DummyArmor(Properties.legsSAPPHIRE, ArmorMaterials.armorSAPPHIRE).setUnlocalizedName(ItemNames.legsAPPHIRE);
+        headAmethyst = new DummyArmor(Properties.bootsSAPPHIRE, ArmorMaterials.armorSAPPHIRE).setUnlocalizedName(ItemNames.bootsAPPHIRE);
+        
+        headAmethyst = new DummyArmor(Properties.headSQUARTZ, ArmorMaterials.armorSQUARTZ).setUnlocalizedName(ItemNames.headSQUARTZ);
+        headAmethyst = new DummyArmor(Properties.chestSQUARTZ, ArmorMaterials.armorSQUARTZ).setUnlocalizedName(ItemNames.chestSQUARTZ);
+        headAmethyst = new DummyArmor(Properties.legsSQUARTZ, ArmorMaterials.armorSQUARTZ).setUnlocalizedName(ItemNames.legsSQUARTZ);
+        headAmethyst = new DummyArmor(Properties.bootsQUARTZ, ArmorMaterials.armorSQUARTZ).setUnlocalizedName(ItemNames.bootsSQUARTZ);
+        
+        headAmethyst = new DummyArmor(Properties.headSUN, ArmorMaterials.armorSUN).setUnlocalizedName(ItemNames.headSUN);
+        headAmethyst = new DummyArmor(Properties.chestdSUN, ArmorMaterials.armorSUN).setUnlocalizedName(ItemNames.chestSUN);
+        headAmethyst = new DummyArmor(Properties.legsSUN, ArmorMaterials.armorSUN).setUnlocalizedName(ItemNames.legsSUN);
+        headAmethyst = new DummyArmor(Properties.bootsSUN, ArmorMaterials.armorSUN).setUnlocalizedName(ItemNames.boostSUN);
+        
+        headAmethyst = new DummyArmor(Properties.headTOPAZ, ArmorMaterials.armorTOPAZ).setUnlocalizedName(ItemNames.headTOPAZ);
+        headAmethyst = new DummyArmor(Properties.chestTOPAZ, ArmorMaterials.armorTOPAZ).setUnlocalizedName(ItemNames.chestTOPAZ);
+        headAmethyst = new DummyArmor(Properties.legsTOPAZ, ArmorMaterials.armorTOPAZ).setUnlocalizedName(ItemNames.legTOPAZ);
+        headAmethyst = new DummyArmor(Properties.bootsTOPAZ, ArmorMaterials.armorTOPAZ).setUnlocalizedName(ItemNames.bootsTOPAZ);
+        
+        headAmethyst = new DummyArmor(Properties.headTURQUOISE, ArmorMaterials.armorTURQUOISE).setUnlocalizedName(ItemNames.headTURQUOISE);
+        headAmethyst = new DummyArmor(Properties.chestTURQUOISE, ArmorMaterials.armorTURQUOISE).setUnlocalizedName(ItemNames.chestTURQUOISE);
+        headAmethyst = new DummyArmor(Properties.legsTURQUOISE, ArmorMaterials.armorTURQUOISE).setUnlocalizedName(ItemNames.legsTURQUOISE);
+        headAmethyst = new DummyArmor(Properties.bootsTURQUOISE, ArmorMaterials.armorTURQUOISE).setUnlocalizedName(ItemNames.bootsTURQUOISE);
+        
+        headAmethyst = new DummyArmor(Properties.headWALABASTER, ArmorMaterials.armorWALABASTER).setUnlocalizedName(ItemNames.headWALABASTER);
+        headAmethyst = new DummyArmor(Properties.chestWALABASTER, ArmorMaterials.armorWALABASTER).setUnlocalizedName(ItemNames.chestWALABASTER);
+        headAmethyst = new DummyArmor(Properties.legsWALABASTER, ArmorMaterials.armorWALABASTER).setUnlocalizedName(ItemNames.legsWALABASTER);
+        headAmethyst = new DummyArmor(Properties.bootsWALABASTER, ArmorMaterials.armorWALABASTER).setUnlocalizedName(ItemNames.bootsWALABASTER);
+        
     }
 }
