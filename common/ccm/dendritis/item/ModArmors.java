@@ -1,13 +1,17 @@
 package ccm.dendritis.item;
 
 import net.minecraft.item.Item;
+
+import ccm.nucleum_omnium.handler.Handler;
+
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.item.armor.ArmorMaterials;
 import ccm.dendritis.item.armor.DummyArmor;
 import ccm.dendritis.utils.lib.Properties;
-import ccm.nucleum_omnium.handler.Handler;
 
-public final class ModArmors {
+public final class ModArmors
+{
+
     public static Item headAmethyst;
 
     public static Item chestAmethyst;
@@ -147,7 +151,8 @@ public final class ModArmors {
     /**
      * Creates all the Item Objects in the Mod.
      */
-    public static void init() {
+    public static void init()
+    {
         Handler.log(Dendritis.instance, "Loading Items");
 
         headAmethyst = new DummyArmor(Properties.headAmethystID, ArmorMaterials.armorAMETHYST, 0, 0).setUnlocalizedName("headAmethyst");

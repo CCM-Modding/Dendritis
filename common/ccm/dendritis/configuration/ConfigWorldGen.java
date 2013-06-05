@@ -1,43 +1,46 @@
 package ccm.dendritis.configuration;
 
 import net.minecraftforge.common.Configuration;
-import ccm.dendritis.Dendritis;
-import ccm.dendritis.utils.lib.Properties;
+
 import ccm.nucleum_omnium.handler.Handler;
 
-final class ConfigWorldGen extends Config {
+import ccm.dendritis.Dendritis;
+import ccm.dendritis.utils.lib.Properties;
 
-    final static String gen = "World Generation";
+final class ConfigWorldGen extends Config
+{
 
-    final static String ame = " of Amethyst (End)";
+    final static String gen  = "World Generation";
 
-    final static String bdi = " of BlackDiamond (Neather)";
+    final static String ame  = " of Amethyst (End)";
 
-    final static String cit = " of Citrine (Surface)";
+    final static String bdi  = " of BlackDiamond (Neather)";
 
-    final static String czi = " of CubicZirconia (Neather)";
+    final static String cit  = " of Citrine (Surface)";
 
-    final static String fuc = " of Fuchsia (Surface)";
+    final static String czi  = " of CubicZirconia (Neather)";
 
-    final static String jet = " of Jet (End)";
+    final static String fuc  = " of Fuchsia (Surface)";
 
-    final static String oli = " of Olivine (Surface)";
+    final static String jet  = " of Jet (End)";
+
+    final static String oli  = " of Olivine (Surface)";
 
     final static String opal = " of Opal (Surface)";
 
     final static String ruby = " of Ruby (Surface)";
 
-    final static String sap = " of Sapphire (Surface)";
+    final static String sap  = " of Sapphire (Surface)";
 
-    final static String squ = " of SmokyQuartz (Neather)";
+    final static String squ  = " of SmokyQuartz (Neather)";
 
-    final static String sun = " of Sun (Surface)";
+    final static String sun  = " of Sun (Surface)";
 
-    final static String top = " of Topaz (Surface)";
+    final static String top  = " of Topaz (Surface)";
 
-    final static String tur = " of Turquoise (Surface)";
+    final static String tur  = " of Turquoise (Surface)";
 
-    final static String wal = " of WhiteAlibaster (End)";
+    final static String wal  = " of WhiteAlibaster (End)";
 
     /**
      * Loads or creates the World Generation Section in the Configuration file.
@@ -45,7 +48,8 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    protected static void configWorldGen(final Configuration config) {
+    protected static void configWorldGen(final Configuration config)
+    {
 
         genAmethyst(config);
         genBDiamond(config);
@@ -70,8 +74,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genAmethyst(final Configuration config) {
-        if (Properties.enableWorldGenAmethyst = config.get(gen + ame, "Enable Generation of Amethyst", true).getBoolean(true)) {
+    private static void genAmethyst(final Configuration config)
+    {
+        if (Properties.enableWorldGenAmethyst = config.get(gen + ame, "Enable Generation of Amethyst", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Amethyst Configs");
 
             Properties.ameMaxHeight = config.get(gen + ame, "Maximum Height", 65).getInt();
@@ -88,8 +93,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genBDiamond(final Configuration config) {
-        if (Properties.enableWorldGenBDiamond = config.get(gen + bdi, "Enable Generation of BlackDiamond", true).getBoolean(true)) {
+    private static void genBDiamond(final Configuration config)
+    {
+        if (Properties.enableWorldGenBDiamond = config.get(gen + bdi, "Enable Generation of BlackDiamond", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading BlackDiamond Configs");
 
             Properties.bdiMaxHeight = config.get(gen + bdi, "Maximum Height", 128).getInt();
@@ -105,8 +111,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genCitrine(final Configuration config) {
-        if (Properties.enableWorldGenCitrine = config.get(gen + cit, "Enable Generation of Citrine", true).getBoolean(true)) {
+    private static void genCitrine(final Configuration config)
+    {
+        if (Properties.enableWorldGenCitrine = config.get(gen + cit, "Enable Generation of Citrine", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Citrine Configs");
 
             Properties.citMaxHeight = config.get(gen + cit, "Maximum Height", 50).getInt();
@@ -123,8 +130,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genCZirconia(final Configuration config) {
-        if (Properties.enableWorldGenCZirconia = config.get(gen + czi, "Enable Generation of CubicZirconia", true).getBoolean(true)) {
+    private static void genCZirconia(final Configuration config)
+    {
+        if (Properties.enableWorldGenCZirconia = config.get(gen + czi, "Enable Generation of CubicZirconia", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading CubicZirconia Configs");
 
             Properties.cziMaxHeight = config.get(gen + czi, "Maximum Height", 128).getInt();
@@ -140,8 +148,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genFuchsia(final Configuration config) {
-        if (Properties.enableWorldGenFuchsia = config.get(gen + fuc, "Enable Generation of Fuchsia", true).getBoolean(true)) {
+    private static void genFuchsia(final Configuration config)
+    {
+        if (Properties.enableWorldGenFuchsia = config.get(gen + fuc, "Enable Generation of Fuchsia", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Fuchsia Configs");
 
             Properties.fucMaxHeight = config.get(gen + fuc, "Maximum Height", 50).getInt();
@@ -157,8 +166,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genJet(final Configuration config) {
-        if (Properties.enableWorldGenJet = config.get(gen + jet, "Enable Generation of Jet", true).getBoolean(true)) {
+    private static void genJet(final Configuration config)
+    {
+        if (Properties.enableWorldGenJet = config.get(gen + jet, "Enable Generation of Jet", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Jet Configs");
 
             Properties.jetMaxHeight = config.get(gen + jet, "Maximum Height", 65).getInt();
@@ -174,8 +184,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genOlivine(final Configuration config) {
-        if (Properties.enableWorldGenOlivine = config.get(gen + oli, "Enable Generation of Olivine", true).getBoolean(true)) {
+    private static void genOlivine(final Configuration config)
+    {
+        if (Properties.enableWorldGenOlivine = config.get(gen + oli, "Enable Generation of Olivine", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Olivine Configs");
 
             Properties.oliMaxHeight = config.get(gen + oli, "Maximum Height", 50).getInt();
@@ -191,8 +202,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genOpal(final Configuration config) {
-        if (Properties.enableWorldGenOpal = config.get(gen + opal, "Enable Generation of Opal", true).getBoolean(true)) {
+    private static void genOpal(final Configuration config)
+    {
+        if (Properties.enableWorldGenOpal = config.get(gen + opal, "Enable Generation of Opal", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Opal Configs");
 
             Properties.opalMaxHeight = config.get(gen + opal, "Maximum Height", 50).getInt();
@@ -208,8 +220,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genRuby(final Configuration config) {
-        if (Properties.enableWorldGenRuby = config.get(gen + ruby, "Enable Generation of Ruby", true).getBoolean(true)) {
+    private static void genRuby(final Configuration config)
+    {
+        if (Properties.enableWorldGenRuby = config.get(gen + ruby, "Enable Generation of Ruby", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Ruby Configs");
 
             Properties.rubyMaxHeight = config.get(gen + ruby, "Maximum Height", 50).getInt();
@@ -225,8 +238,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genSapphire(final Configuration config) {
-        if (Properties.enableWorldGenSapphire = config.get(gen + sap, "Enable Generation of Sapphire", true).getBoolean(true)) {
+    private static void genSapphire(final Configuration config)
+    {
+        if (Properties.enableWorldGenSapphire = config.get(gen + sap, "Enable Generation of Sapphire", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Sapphire Configs");
 
             Properties.sapMaxHeight = config.get(gen + sap, "Maximum Height", 50).getInt();
@@ -243,8 +257,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genSQuartz(final Configuration config) {
-        if (Properties.enableWorldGenSQuartz = config.get(gen + squ, "Enable Generation of SmokyQuartz", true).getBoolean(true)) {
+    private static void genSQuartz(final Configuration config)
+    {
+        if (Properties.enableWorldGenSQuartz = config.get(gen + squ, "Enable Generation of SmokyQuartz", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading SmokyQuartz Configs");
 
             Properties.squMaxHeight = config.get(gen + squ, "Maximum Height", 128).getInt();
@@ -260,8 +275,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genSun(final Configuration config) {
-        if (Properties.enableWorldGenSun = config.get(gen + sun, "Enable Generation of Sun", true).getBoolean(true)) {
+    private static void genSun(final Configuration config)
+    {
+        if (Properties.enableWorldGenSun = config.get(gen + sun, "Enable Generation of Sun", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Sun Configs");
 
             Properties.sunMaxHeight = config.get(gen + sun, "Maximum Height", 50).getInt();
@@ -277,8 +293,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genTopaz(final Configuration config) {
-        if (Properties.enableWorldGenTopaz = config.get(gen + top, "Enable Generation of Topaz", true).getBoolean(true)) {
+    private static void genTopaz(final Configuration config)
+    {
+        if (Properties.enableWorldGenTopaz = config.get(gen + top, "Enable Generation of Topaz", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Topaz Configs");
 
             Properties.topMaxHeight = config.get(gen + top, "Maximum Height", 50).getInt();
@@ -295,8 +312,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genTurquoise(final Configuration config) {
-        if (Properties.enableWorldGenTurquoise = config.get(gen + tur, "Enable Generation of Turquoise", true).getBoolean(true)) {
+    private static void genTurquoise(final Configuration config)
+    {
+        if (Properties.enableWorldGenTurquoise = config.get(gen + tur, "Enable Generation of Turquoise", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading Turquoise Configs");
 
             Properties.turMaxHeight = config.get(gen + tur, "Maximum Height", 50).getInt();
@@ -313,8 +331,9 @@ final class ConfigWorldGen extends Config {
      * @param config
      *            The Configuration file that is being edited.
      */
-    private static void genWAlabaster(final Configuration config) {
-        if (Properties.enableWorldGenWAlabaster = config.get(gen + wal, "Enable Generation of WhiteAlabaster", true).getBoolean(true)) {
+    private static void genWAlabaster(final Configuration config)
+    {
+        if (Properties.enableWorldGenWAlabaster = config.get(gen + wal, "Enable Generation of WhiteAlabaster", true).getBoolean(true)){
             Handler.log(Dendritis.instance, "Loading WhiteAlabaster Configs");
 
             Properties.walMaxHeight = config.get(gen + wal, "Maximum Height", 65).getInt();

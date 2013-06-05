@@ -1,6 +1,9 @@
 package ccm.dendritis.item;
 
 import net.minecraft.item.Item;
+
+import ccm.nucleum_omnium.handler.Handler;
+
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.item.tool.DummyAxe;
 import ccm.dendritis.item.tool.DummyHoe;
@@ -9,9 +12,10 @@ import ccm.dendritis.item.tool.DummySpade;
 import ccm.dendritis.item.tool.DummySword;
 import ccm.dendritis.item.tool.ToolMaterials;
 import ccm.dendritis.utils.lib.Properties;
-import ccm.nucleum_omnium.handler.Handler;
 
-public final class ModTools {
+public final class ModTools
+{
+
     public static Item axeAmethyst;
 
     public static Item hoeAmethyst;
@@ -185,7 +189,8 @@ public final class ModTools {
     /**
      * Creates all the Item Objects in the Mod.
      */
-    public static void init() {
+    public static void init()
+    {
         Handler.log(Dendritis.instance, "Loading Items");
 
         axeAmethyst = new DummyAxe(Properties.axeAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName("axeAmethyst");

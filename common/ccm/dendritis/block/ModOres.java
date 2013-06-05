@@ -10,12 +10,15 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Icon;
 import net.minecraftforge.common.MinecraftForge;
-import ccm.dendritis.enums.EnumOres;
-import ccm.dendritis.utils.lib.Properties;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ModOres extends BaseBlock {
+import ccm.dendritis.enums.EnumOres;
+import ccm.dendritis.utils.lib.Properties;
+
+public class ModOres extends BaseBlock
+{
 
     private static EnumOres[] ores = EnumOres.values();
 
@@ -25,7 +28,8 @@ public class ModOres extends BaseBlock {
      * @param id
      *            Block Id
      */
-    public ModOres(final int id) {
+    public ModOres(final int id)
+    {
         super(id, Material.rock);
         this.setHardness(3.0F);
         this.setResistance(5.0F);
@@ -56,7 +60,8 @@ public class ModOres extends BaseBlock {
 
     @Override
     @SideOnly(Side.CLIENT)
-    public Icon getIcon(final int side, final int meta) {
+    public Icon getIcon(final int side, final int meta)
+    {
         this.blockIcon = ores[meta].getIcon();
         return this.blockIcon;
     }
@@ -65,26 +70,31 @@ public class ModOres extends BaseBlock {
      * Returns the ID of the items to drop on destruction.
      */
     @Override
-    public int idDropped(final int par1, final Random par2Random, final int par3) {
+    public int idDropped(final int par1, final Random par2Random, final int par3)
+    {
         return Properties.itemGemsID;
     }
 
     // Makes sure pick block works right
     @Override
-    public int damageDropped(final int metadata) {
+    public int damageDropped(final int metadata)
+    {
         return metadata;
     }
 
     @Override
     @SideOnly(Side.CLIENT)
-    public void registerIcons(final IconRegister iconRegister) {
+    public void registerIcons(final IconRegister iconRegister)
+    {
         EnumOres.registerIcons(iconRegister);
     }
 
     @Override
-    @SuppressWarnings({ "rawtypes", "unchecked" })
-    public void getSubBlocks(final int itemId, final CreativeTabs tab, final List list) {
-        for (int i = 0; i < EnumOres.values().length; i++) {
+    @SuppressWarnings(
+    { "rawtypes", "unchecked" })
+    public void getSubBlocks(final int itemId, final CreativeTabs tab, final List list)
+    {
+        for (int i = 0; i < EnumOres.values().length; i++){
             list.add(new ItemStack(itemId, 1, i));
         }
     }
