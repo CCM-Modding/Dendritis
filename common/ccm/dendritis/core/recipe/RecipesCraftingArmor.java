@@ -6,14 +6,13 @@ import net.minecraft.item.crafting.CraftingManager;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import ccm.dendritis.item.ModArmors;
 
-final class RecipesCraftingArmor
-{
+final class RecipesCraftingArmor {
 
     /**
      * Adds all the Shaped recipes in the Mod.
      */
     @SuppressWarnings("unchecked")
-    private static void addShaped(){
+    private static void addShaped() {
 
         CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(ModArmors.headAmethyst), new Object[] { "xxx", "x x", 'x', "gemAmethyst" }));
         CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(ModArmors.chestAmethyst), new Object[] { "x x", "xxx", "xxx", 'x', "gemAmethyst" }));
@@ -101,8 +100,7 @@ final class RecipesCraftingArmor
         CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(ModArmors.bootsWAlabaster), new Object[] { "x x", "x x", 'x', "gemWAlabaster" }));
     }
 
-    public static void init()
-    {
+    public RecipesCraftingArmor() {
         addShaped();
     }
 }

@@ -1,13 +1,11 @@
 package ccm.dendritis.configuration;
 
 import net.minecraftforge.common.Configuration;
-
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.utils.lib.Properties;
 import ccm.nucleum_omnium.handler.Handler;
 
-final class ConfigTools extends Config
-{
+final class ConfigTools extends Config {
 
     /**
      * Loads or creates the Usable Items in the Configuration file.
@@ -15,8 +13,7 @@ final class ConfigTools extends Config
      * @param config
      *            The Configuration file that is being edited.
      */
-    protected static void configTools(final Configuration config)
-    {
+    protected static void configTools(final Configuration config) {
         Handler.log(Dendritis.instance, "Loading Tools Configs");
 
         Properties.axeAmethystID = property.getNextUsableItemID(config, "Amethyst Axe").getInt();

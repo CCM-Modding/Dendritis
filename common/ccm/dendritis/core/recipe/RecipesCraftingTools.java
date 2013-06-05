@@ -117,7 +117,7 @@ final class RecipesCraftingTools {
         CraftingManager.getInstance().getRecipeList().add(new ShapedOreRecipe(new ItemStack(ModTools.swordWAlabaster), new Object[] { "x", "x", "y", 'x', "gemWAlabaster", 'y', "stickWood" }));
     }
 
-    public static void init() {
+    public RecipesCraftingTools() {
         addShaped();
     }
 }

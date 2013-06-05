@@ -1,70 +1,67 @@
 package ccm.dendritis.utils.registry;
 
 import net.minecraftforge.oredict.OreDictionary;
-
 import ccm.dendritis.Dendritis;
-import ccm.dendritis.core.handlers.EHandler;
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
 import ccm.dendritis.enums.EnumOres;
 import ccm.nucleum_omnium.handler.Handler;
+import ccm.nucleum_omnium.helper.enums.EnumHelper;
 
-final class OreDictionaryRegistry
-{
+final class OreDictionaryRegistry {
 
     /**
      * Registers all the Entries to the Ore Dictionary.
      */
-    protected static void oreDictionary()
-    {
+    protected static void oreDictionary() {
         Handler.log(Dendritis.instance, "Adding Ore Dictionary Entries");
 
-        OreDictionary.registerOre("gemAmethyst", EHandler.getItem(EnumGems.gemAmethyst));
-        OreDictionary.registerOre("gemBDiamond", EHandler.getItem(EnumGems.gemBDiamond));
-        OreDictionary.registerOre("gemCitrine", EHandler.getItem(EnumGems.gemCitrine));
-        OreDictionary.registerOre("gemCZirconia", EHandler.getItem(EnumGems.gemCZirconia));
-        OreDictionary.registerOre("gemFuchsia", EHandler.getItem(EnumGems.gemFuchsia));
-        OreDictionary.registerOre("gemJet", EHandler.getItem(EnumGems.gemJet));
-        OreDictionary.registerOre("gemOlivine", EHandler.getItem(EnumGems.gemOlivine));
-        OreDictionary.registerOre("gemOpal", EHandler.getItem(EnumGems.gemOpal));
-        OreDictionary.registerOre("gemRuby", EHandler.getItem(EnumGems.gemRuby));
-        OreDictionary.registerOre("gemSapphire", EHandler.getItem(EnumGems.gemSapphire));
-        OreDictionary.registerOre("gemSQuartz", EHandler.getItem(EnumGems.gemSQuartz));
-        OreDictionary.registerOre("gemSun", EHandler.getItem(EnumGems.gemSun));
-        OreDictionary.registerOre("gemTopaz", EHandler.getItem(EnumGems.gemTopaz));
-        OreDictionary.registerOre("gemTurquoise", EHandler.getItem(EnumGems.gemTurquoise));
-        OreDictionary.registerOre("gemWAlabaster", EHandler.getItem(EnumGems.gemWAlabaster));
+        OreDictionary.registerOre("gemAmethyst", EnumHelper.getItemIS(EnumGems.gemAmethyst));
+        OreDictionary.registerOre("gemBDiamond", EnumHelper.getItemIS(EnumGems.gemBDiamond));
+        OreDictionary.registerOre("gemCitrine", EnumHelper.getItemIS(EnumGems.gemCitrine));
+        OreDictionary.registerOre("gemCZirconia", EnumHelper.getItemIS(EnumGems.gemCZirconia));
+        OreDictionary.registerOre("gemFuchsia", EnumHelper.getItemIS(EnumGems.gemFuchsia));
+        OreDictionary.registerOre("gemJet", EnumHelper.getItemIS(EnumGems.gemJet));
+        OreDictionary.registerOre("gemOlivine", EnumHelper.getItemIS(EnumGems.gemOlivine));
+        OreDictionary.registerOre("gemOpal", EnumHelper.getItemIS(EnumGems.gemOpal));
+        OreDictionary.registerOre("gemRuby", EnumHelper.getItemIS(EnumGems.gemRuby));
+        OreDictionary.registerOre("gemSapphire", EnumHelper.getItemIS(EnumGems.gemSapphire));
+        OreDictionary.registerOre("gemSQuartz", EnumHelper.getItemIS(EnumGems.gemSQuartz));
+        OreDictionary.registerOre("gemSun", EnumHelper.getItemIS(EnumGems.gemSun));
+        OreDictionary.registerOre("gemTopaz", EnumHelper.getItemIS(EnumGems.gemTopaz));
+        OreDictionary.registerOre("gemTurquoise", EnumHelper.getItemIS(EnumGems.gemTurquoise));
+        OreDictionary.registerOre("gemWAlabaster", EnumHelper.getItemIS(EnumGems.gemWAlabaster));
 
-        OreDictionary.registerOre("oreAmethyst", EHandler.getItem(EnumOres.oreAmethyst));
-        OreDictionary.registerOre("oreBDiamond", EHandler.getItem(EnumOres.oreBDiamond));
-        OreDictionary.registerOre("oreCitrine", EHandler.getItem(EnumOres.oreCitrine));
-        OreDictionary.registerOre("oreCZirconia", EHandler.getItem(EnumOres.oreCZirconia));
-        OreDictionary.registerOre("oreFuchsia", EHandler.getItem(EnumOres.oreFuchsia));
-        OreDictionary.registerOre("oreJet", EHandler.getItem(EnumOres.oreJet));
-        OreDictionary.registerOre("oreOlivine", EHandler.getItem(EnumOres.oreOlivine));
-        OreDictionary.registerOre("oreOpal", EHandler.getItem(EnumOres.oreOpal));
-        OreDictionary.registerOre("oreRuby", EHandler.getItem(EnumOres.oreRuby));
-        OreDictionary.registerOre("oreSapphire", EHandler.getItem(EnumOres.oreSapphire));
-        OreDictionary.registerOre("oreSQuartz", EHandler.getItem(EnumOres.oreSQuartz));
-        OreDictionary.registerOre("oreSun", EHandler.getItem(EnumOres.oreSun));
-        OreDictionary.registerOre("oreTopaz", EHandler.getItem(EnumOres.oreTopaz));
-        OreDictionary.registerOre("oreTurquoise", EHandler.getItem(EnumOres.oreTurquoise));
-        OreDictionary.registerOre("oreWAlabaster", EHandler.getItem(EnumOres.oreWAlabaster));
+        OreDictionary.registerOre("oreAmethyst", EnumHelper.getBlockIS(EnumOres.oreAmethyst));
+        OreDictionary.registerOre("oreBDiamond", EnumHelper.getBlockIS(EnumOres.oreBDiamond));
+        OreDictionary.registerOre("oreCitrine", EnumHelper.getBlockIS(EnumOres.oreCitrine));
+        OreDictionary.registerOre("oreCZirconia", EnumHelper.getBlockIS(EnumOres.oreCZirconia));
+        OreDictionary.registerOre("oreFuchsia", EnumHelper.getBlockIS(EnumOres.oreFuchsia));
+        OreDictionary.registerOre("oreJet", EnumHelper.getBlockIS(EnumOres.oreJet));
+        OreDictionary.registerOre("oreOlivine", EnumHelper.getBlockIS(EnumOres.oreOlivine));
+        OreDictionary.registerOre("oreOpal", EnumHelper.getBlockIS(EnumOres.oreOpal));
+        OreDictionary.registerOre("oreRuby", EnumHelper.getBlockIS(EnumOres.oreRuby));
+        OreDictionary.registerOre("oreSapphire", EnumHelper.getBlockIS(EnumOres.oreSapphire));
+        OreDictionary.registerOre("oreSQuartz", EnumHelper.getBlockIS(EnumOres.oreSQuartz));
+        OreDictionary.registerOre("oreSun", EnumHelper.getBlockIS(EnumOres.oreSun));
+        OreDictionary.registerOre("oreTopaz", EnumHelper.getBlockIS(EnumOres.oreTopaz));
+        OreDictionary.registerOre("oreTurquoise", EnumHelper.getBlockIS(EnumOres.oreTurquoise));
+        OreDictionary.registerOre("oreWAlabaster", EnumHelper.getBlockIS(EnumOres.oreWAlabaster));
 
-        OreDictionary.registerOre("blockAmethyst", EHandler.getItem(EnumBlocks.blockAmethyst));
-        OreDictionary.registerOre("blockBDiamond", EHandler.getItem(EnumBlocks.blockBDiamond));
-        OreDictionary.registerOre("blockCitrine", EHandler.getItem(EnumBlocks.blockCitrine));
-        OreDictionary.registerOre("blockCZirconia", EHandler.getItem(EnumBlocks.blockCZirconia));
-        OreDictionary.registerOre("blockFuchsia", EHandler.getItem(EnumBlocks.blockFuchsia));
-        OreDictionary.registerOre("blockJet", EHandler.getItem(EnumBlocks.blockJet));
-        OreDictionary.registerOre("blockOlivine", EHandler.getItem(EnumBlocks.blockOlivine));
-        OreDictionary.registerOre("blockOpal", EHandler.getItem(EnumBlocks.blockOpal));
-        OreDictionary.registerOre("blockRuby", EHandler.getItem(EnumBlocks.blockRuby));
-        OreDictionary.registerOre("blockSapphire", EHandler.getItem(EnumBlocks.blockSapphire));
-        OreDictionary.registerOre("blockSQuartz", EHandler.getItem(EnumBlocks.blockSQuartz));
-        OreDictionary.registerOre("blockSun", EHandler.getItem(EnumBlocks.blockSun));
-        OreDictionary.registerOre("blockTopaz", EHandler.getItem(EnumBlocks.blockTopaz));
-        OreDictionary.registerOre("blockTurquoise", EHandler.getItem(EnumBlocks.blockTurquoise));
-        OreDictionary.registerOre("blockWAlabaster", EHandler.getItem(EnumBlocks.blockWAlabaster));
+        OreDictionary.registerOre("blockAmethyst", EnumHelper.getBlockIS(EnumBlocks.blockAmethyst));
+        OreDictionary.registerOre("blockBDiamond", EnumHelper.getBlockIS(EnumBlocks.blockBDiamond));
+        OreDictionary.registerOre("blockCitrine", EnumHelper.getBlockIS(EnumBlocks.blockCitrine));
+        OreDictionary.registerOre("blockCZirconia", EnumHelper.getBlockIS(EnumBlocks.blockCZirconia));
+        OreDictionary.registerOre("blockFuchsia", EnumHelper.getBlockIS(EnumBlocks.blockFuchsia));
+        OreDictionary.registerOre("blockJet", EnumHelper.getBlockIS(EnumBlocks.blockJet));
+        OreDictionary.registerOre("blockOlivine", EnumHelper.getBlockIS(EnumBlocks.blockOlivine));
+        OreDictionary.registerOre("blockOpal", EnumHelper.getBlockIS(EnumBlocks.blockOpal));
+        OreDictionary.registerOre("blockRuby", EnumHelper.getBlockIS(EnumBlocks.blockRuby));
+        OreDictionary.registerOre("blockSapphire", EnumHelper.getBlockIS(EnumBlocks.blockSapphire));
+        OreDictionary.registerOre("blockSQuartz", EnumHelper.getBlockIS(EnumBlocks.blockSQuartz));
+        OreDictionary.registerOre("blockSun", EnumHelper.getBlockIS(EnumBlocks.blockSun));
+        OreDictionary.registerOre("blockTopaz", EnumHelper.getBlockIS(EnumBlocks.blockTopaz));
+        OreDictionary.registerOre("blockTurquoise", EnumHelper.getBlockIS(EnumBlocks.blockTurquoise));
+        OreDictionary.registerOre("blockWAlabaster", EnumHelper.getBlockIS(EnumBlocks.blockWAlabaster));
     }
 }
