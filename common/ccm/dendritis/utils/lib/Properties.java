@@ -4,16 +4,14 @@ public class Properties
 {
 
     /*
-     * ***********************************************
-     * Defaluts ***********************************************
+     * Defaluts
      */
-    private static int    itemID  = 10000;
+    public static int     itemID  = 10000;
 
-    private static int    blockID = 1000;
+    public static int     blockID = 1000;
 
     /*
-     * ***********************************************
-     * Item IDs ***********************************************
+     * Item IDs
      */
     public static int     itemMainID;
 
@@ -326,8 +324,7 @@ public class Properties
     public static int     bootsWAlabasterID;
 
     /*
-     * ***********************************************
-     * Blocks IDs ***********************************************
+     * Blocks IDs
      */
 
     public static int     oreID;
@@ -335,9 +332,7 @@ public class Properties
     public static int     blocksID;
 
     /*
-     * ***************************************************
      * World Generation Stuff
-     * ***************************************************
      */
 
     // Amethyst
@@ -504,14 +499,4 @@ public class Properties
     public static int     walSize;
 
     public static int     walDensity;
-
-    public static int getItemID()
-    {
-        return itemID;
-    }
-
-    public static int getBlockID()
-    {
-        return blockID;
-    }
 }

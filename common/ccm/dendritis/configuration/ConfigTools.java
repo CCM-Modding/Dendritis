@@ -1,7 +1,6 @@
 package ccm.dendritis.configuration;
 
-import net.minecraftforge.common.Configuration;
-
+import ccm.nucleum_omnium.configuration.AdvConfiguration;
 import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.Dendritis;
@@ -14,112 +13,112 @@ final class ConfigTools extends Config
      * Loads or creates the Usable Items in the Configuration file.
      * 
      * @param config
-     *            The Configuration file that is being edited.
+     *            The {@link AdvConfiguration} file that is being edited.
      */
-    protected static void configTools(final Configuration config)
+    protected static void configTools(final AdvConfiguration config)
     {
-        Handler.log(Dendritis.instance, "Loading Tools Configs");
+        Handler.log(Dendritis.instance, ", Properties.itemIDLoading Tools Configs");
 
-        Properties.axeAmethystID = property.getNextUsableItemID(config, "Amethyst Axe").getInt();
-        Properties.hoeAmethystID = property.getNextUsableItemID(config, "Amethyst Hoe").getInt();
-        Properties.spadeAmethystID = property.getNextUsableItemID(config, "Amethyst Spade").getInt();
-        Properties.pickAmethystID = property.getNextUsableItemID(config, "Amethyst Pick").getInt();
-        Properties.swordAmethystID = property.getNextUsableItemID(config, "Amethyst Sword").getInt();
+        Properties.axeAmethystID = config.getItem("Amethyst Axe", Properties.itemID).getInt();
+        Properties.hoeAmethystID = config.getItem("Amethyst Hoe", Properties.itemID).getInt();
+        Properties.spadeAmethystID = config.getItem("Amethyst Spade", Properties.itemID).getInt();
+        Properties.pickAmethystID = config.getItem("Amethyst Pick", Properties.itemID).getInt();
+        Properties.swordAmethystID = config.getItem("Amethyst Sword", Properties.itemID).getInt();
 
-        Properties.axeBDiamondID = property.getNextUsableItemID(config, "BDiamond Axe").getInt();
-        Properties.hoeBDiamondID = property.getNextUsableItemID(config, "BDiamond Hoe").getInt();
-        Properties.spadeBDiamondID = property.getNextUsableItemID(config, "BDiamond Spade").getInt();
-        Properties.pickBDiamondID = property.getNextUsableItemID(config, "BDiamond Pick").getInt();
-        Properties.swordBDiamondID = property.getNextUsableItemID(config, "BDiamond Sword").getInt();
+        Properties.axeBDiamondID = config.getItem("BDiamond Axe", Properties.itemID).getInt();
+        Properties.hoeBDiamondID = config.getItem("BDiamond Hoe", Properties.itemID).getInt();
+        Properties.spadeBDiamondID = config.getItem("BDiamond Spade", Properties.itemID).getInt();
+        Properties.pickBDiamondID = config.getItem("BDiamond Pick", Properties.itemID).getInt();
+        Properties.swordBDiamondID = config.getItem("BDiamond Sword", Properties.itemID).getInt();
 
-        Properties.axeCitrineID = property.getNextUsableItemID(config, "Citrine Axe").getInt();
-        Properties.hoeCitrineID = property.getNextUsableItemID(config, "Citrine Hoe").getInt();
-        Properties.spadeCitrineID = property.getNextUsableItemID(config, "Citrine Spade").getInt();
-        Properties.pickCitrineID = property.getNextUsableItemID(config, "Citrine Pick").getInt();
-        Properties.swordCitrineID = property.getNextUsableItemID(config, "Citrine Sword").getInt();
+        Properties.axeCitrineID = config.getItem("Citrine Axe", Properties.itemID).getInt();
+        Properties.hoeCitrineID = config.getItem("Citrine Hoe", Properties.itemID).getInt();
+        Properties.spadeCitrineID = config.getItem("Citrine Spade", Properties.itemID).getInt();
+        Properties.pickCitrineID = config.getItem("Citrine Pick", Properties.itemID).getInt();
+        Properties.swordCitrineID = config.getItem("Citrine Sword", Properties.itemID).getInt();
 
-        Properties.axeCZirconiaID = property.getNextUsableItemID(config, "CZirconia Axe").getInt();
-        Properties.hoeCZirconiaID = property.getNextUsableItemID(config, "CZirconia Hoe").getInt();
-        Properties.spadeCZirconiaID = property.getNextUsableItemID(config, "CZirconia Spade").getInt();
-        Properties.pickCZirconiaID = property.getNextUsableItemID(config, "CZirconia Pick").getInt();
-        Properties.swordCZirconiaID = property.getNextUsableItemID(config, "CZirconia Sword").getInt();
+        Properties.axeCZirconiaID = config.getItem("CZirconia Axe", Properties.itemID).getInt();
+        Properties.hoeCZirconiaID = config.getItem("CZirconia Hoe", Properties.itemID).getInt();
+        Properties.spadeCZirconiaID = config.getItem("CZirconia Spade", Properties.itemID).getInt();
+        Properties.pickCZirconiaID = config.getItem("CZirconia Pick", Properties.itemID).getInt();
+        Properties.swordCZirconiaID = config.getItem("CZirconia Sword", Properties.itemID).getInt();
 
-        Properties.axeEmeraldID = property.getNextUsableItemID(config, "Emerald Axe").getInt();
-        Properties.hoeEmeraldID = property.getNextUsableItemID(config, "Emerald Hoe").getInt();
-        Properties.spadeEmeraldID = property.getNextUsableItemID(config, "Emerald Spade").getInt();
-        Properties.pickEmeraldID = property.getNextUsableItemID(config, "Emerald Pick").getInt();
-        Properties.swordEmeraldID = property.getNextUsableItemID(config, "Emerald Sword").getInt();
+        Properties.axeEmeraldID = config.getItem("Emerald Axe", Properties.itemID).getInt();
+        Properties.hoeEmeraldID = config.getItem("Emerald Hoe", Properties.itemID).getInt();
+        Properties.spadeEmeraldID = config.getItem("Emerald Spade", Properties.itemID).getInt();
+        Properties.pickEmeraldID = config.getItem("Emerald Pick", Properties.itemID).getInt();
+        Properties.swordEmeraldID = config.getItem("Emerald Sword", Properties.itemID).getInt();
 
-        Properties.axeFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Axe").getInt();
-        Properties.hoeFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Hoe").getInt();
-        Properties.spadeFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Spade").getInt();
-        Properties.pickFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Pick").getInt();
-        Properties.swordFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Sword").getInt();
+        Properties.axeFuchsiaID = config.getItem("Fuchsia Axe", Properties.itemID).getInt();
+        Properties.hoeFuchsiaID = config.getItem("Fuchsia Hoe", Properties.itemID).getInt();
+        Properties.spadeFuchsiaID = config.getItem("Fuchsia Spade", Properties.itemID).getInt();
+        Properties.pickFuchsiaID = config.getItem("Fuchsia Pick", Properties.itemID).getInt();
+        Properties.swordFuchsiaID = config.getItem("Fuchsia Sword", Properties.itemID).getInt();
 
-        Properties.axeJetID = property.getNextUsableItemID(config, "Jet Axe").getInt();
-        Properties.hoeJetID = property.getNextUsableItemID(config, "Jet Hoe").getInt();
-        Properties.spadeJetID = property.getNextUsableItemID(config, "Jet Spade").getInt();
-        Properties.pickJetID = property.getNextUsableItemID(config, "Jet Pick").getInt();
-        Properties.swordJetID = property.getNextUsableItemID(config, "Jet Sword").getInt();
+        Properties.axeJetID = config.getItem("Jet Axe", Properties.itemID).getInt();
+        Properties.hoeJetID = config.getItem("Jet Hoe", Properties.itemID).getInt();
+        Properties.spadeJetID = config.getItem("Jet Spade", Properties.itemID).getInt();
+        Properties.pickJetID = config.getItem("Jet Pick", Properties.itemID).getInt();
+        Properties.swordJetID = config.getItem("Jet Sword", Properties.itemID).getInt();
 
-        Properties.axeOlivineID = property.getNextUsableItemID(config, "Olivine Axe").getInt();
-        Properties.hoeOlivineID = property.getNextUsableItemID(config, "Olivine Hoe").getInt();
-        Properties.spadeOlivineID = property.getNextUsableItemID(config, "Olivine Spade").getInt();
-        Properties.pickOlivineID = property.getNextUsableItemID(config, "Olivine Pick").getInt();
-        Properties.swordOlivineID = property.getNextUsableItemID(config, "Olivine Sword").getInt();
+        Properties.axeOlivineID = config.getItem("Olivine Axe", Properties.itemID).getInt();
+        Properties.hoeOlivineID = config.getItem("Olivine Hoe", Properties.itemID).getInt();
+        Properties.spadeOlivineID = config.getItem("Olivine Spade", Properties.itemID).getInt();
+        Properties.pickOlivineID = config.getItem("Olivine Pick", Properties.itemID).getInt();
+        Properties.swordOlivineID = config.getItem("Olivine Sword", Properties.itemID).getInt();
 
-        Properties.axeOpalID = property.getNextUsableItemID(config, "Opal Axe").getInt();
-        Properties.hoeOpalID = property.getNextUsableItemID(config, "Opal Hoe").getInt();
-        Properties.spadeOpalID = property.getNextUsableItemID(config, "Opal Spade").getInt();
-        Properties.pickOpalID = property.getNextUsableItemID(config, "Opal Pick").getInt();
-        Properties.swordOpalID = property.getNextUsableItemID(config, "Opal Sword").getInt();
+        Properties.axeOpalID = config.getItem("Opal Axe", Properties.itemID).getInt();
+        Properties.hoeOpalID = config.getItem("Opal Hoe", Properties.itemID).getInt();
+        Properties.spadeOpalID = config.getItem("Opal Spade", Properties.itemID).getInt();
+        Properties.pickOpalID = config.getItem("Opal Pick", Properties.itemID).getInt();
+        Properties.swordOpalID = config.getItem("Opal Sword", Properties.itemID).getInt();
 
-        Properties.axeQuartzID = property.getNextUsableItemID(config, "Quartz Axe").getInt();
-        Properties.hoeQuartzID = property.getNextUsableItemID(config, "Quartz Hoe").getInt();
-        Properties.spadeQuartzID = property.getNextUsableItemID(config, "Quartz Spade").getInt();
-        Properties.pickQuartzID = property.getNextUsableItemID(config, "Quartz Pick").getInt();
-        Properties.swordQuartzID = property.getNextUsableItemID(config, "Quartz Sword").getInt();
+        Properties.axeQuartzID = config.getItem("Quartz Axe", Properties.itemID).getInt();
+        Properties.hoeQuartzID = config.getItem("Quartz Hoe", Properties.itemID).getInt();
+        Properties.spadeQuartzID = config.getItem("Quartz Spade", Properties.itemID).getInt();
+        Properties.pickQuartzID = config.getItem("Quartz Pick", Properties.itemID).getInt();
+        Properties.swordQuartzID = config.getItem("Quartz Sword", Properties.itemID).getInt();
 
-        Properties.axeRubyID = property.getNextUsableItemID(config, "Ruby Axe").getInt();
-        Properties.hoeRubyID = property.getNextUsableItemID(config, "Ruby Hoe").getInt();
-        Properties.spadeRubyID = property.getNextUsableItemID(config, "Ruby Spade").getInt();
-        Properties.pickRubyID = property.getNextUsableItemID(config, "Ruby Pick").getInt();
-        Properties.swordRubyID = property.getNextUsableItemID(config, "Ruby Sword").getInt();
+        Properties.axeRubyID = config.getItem("Ruby Axe", Properties.itemID).getInt();
+        Properties.hoeRubyID = config.getItem("Ruby Hoe", Properties.itemID).getInt();
+        Properties.spadeRubyID = config.getItem("Ruby Spade", Properties.itemID).getInt();
+        Properties.pickRubyID = config.getItem("Ruby Pick", Properties.itemID).getInt();
+        Properties.swordRubyID = config.getItem("Ruby Sword", Properties.itemID).getInt();
 
-        Properties.axeSapphireID = property.getNextUsableItemID(config, "Sapphire Axe").getInt();
-        Properties.hoeSapphireID = property.getNextUsableItemID(config, "Sapphire Hoe").getInt();
-        Properties.spadeSapphireID = property.getNextUsableItemID(config, "Sapphire Spade").getInt();
-        Properties.pickSapphireID = property.getNextUsableItemID(config, "Sapphire Pick").getInt();
-        Properties.swordSapphireID = property.getNextUsableItemID(config, "Sapphire Sword").getInt();
+        Properties.axeSapphireID = config.getItem("Sapphire Axe", Properties.itemID).getInt();
+        Properties.hoeSapphireID = config.getItem("Sapphire Hoe", Properties.itemID).getInt();
+        Properties.spadeSapphireID = config.getItem("Sapphire Spade", Properties.itemID).getInt();
+        Properties.pickSapphireID = config.getItem("Sapphire Pick", Properties.itemID).getInt();
+        Properties.swordSapphireID = config.getItem("Sapphire Sword", Properties.itemID).getInt();
 
-        Properties.axeSQuartzID = property.getNextUsableItemID(config, "SQuartz Axe").getInt();
-        Properties.hoeSQuartzID = property.getNextUsableItemID(config, "SQuartz Hoe").getInt();
-        Properties.spadeSQuartzID = property.getNextUsableItemID(config, "SQuartz Spade").getInt();
-        Properties.pickSQuartzID = property.getNextUsableItemID(config, "SQuartz Pick").getInt();
-        Properties.swordSQuartzID = property.getNextUsableItemID(config, "SQuartz Sword").getInt();
+        Properties.axeSQuartzID = config.getItem("SQuartz Axe", Properties.itemID).getInt();
+        Properties.hoeSQuartzID = config.getItem("SQuartz Hoe", Properties.itemID).getInt();
+        Properties.spadeSQuartzID = config.getItem("SQuartz Spade", Properties.itemID).getInt();
+        Properties.pickSQuartzID = config.getItem("SQuartz Pick", Properties.itemID).getInt();
+        Properties.swordSQuartzID = config.getItem("SQuartz Sword", Properties.itemID).getInt();
 
-        Properties.axeSunID = property.getNextUsableItemID(config, "Sun Axe").getInt();
-        Properties.hoeSunID = property.getNextUsableItemID(config, "Sun Hoe").getInt();
-        Properties.spadeSunID = property.getNextUsableItemID(config, "Sun Spade").getInt();
-        Properties.pickSunID = property.getNextUsableItemID(config, "Sun Pick").getInt();
-        Properties.swordSunID = property.getNextUsableItemID(config, "Sun Sword").getInt();
+        Properties.axeSunID = config.getItem("Sun Axe", Properties.itemID).getInt();
+        Properties.hoeSunID = config.getItem("Sun Hoe", Properties.itemID).getInt();
+        Properties.spadeSunID = config.getItem("Sun Spade", Properties.itemID).getInt();
+        Properties.pickSunID = config.getItem("Sun Pick", Properties.itemID).getInt();
+        Properties.swordSunID = config.getItem("Sun Sword", Properties.itemID).getInt();
 
-        Properties.axeTopazID = property.getNextUsableItemID(config, "Topaz Axe").getInt();
-        Properties.hoeTopazID = property.getNextUsableItemID(config, "Topaz Hoe").getInt();
-        Properties.spadeTopazID = property.getNextUsableItemID(config, "Topaz Spade").getInt();
-        Properties.pickTopazID = property.getNextUsableItemID(config, "Topaz Pick").getInt();
-        Properties.swordTopazID = property.getNextUsableItemID(config, "Topaz Sword").getInt();
+        Properties.axeTopazID = config.getItem("Topaz Axe", Properties.itemID).getInt();
+        Properties.hoeTopazID = config.getItem("Topaz Hoe", Properties.itemID).getInt();
+        Properties.spadeTopazID = config.getItem("Topaz Spade", Properties.itemID).getInt();
+        Properties.pickTopazID = config.getItem("Topaz Pick", Properties.itemID).getInt();
+        Properties.swordTopazID = config.getItem("Topaz Sword", Properties.itemID).getInt();
 
-        Properties.axeTurquoiseID = property.getNextUsableItemID(config, "Turquoise Axe").getInt();
-        Properties.hoeTurquoiseID = property.getNextUsableItemID(config, "Turquoise Hoe").getInt();
-        Properties.spadeTurquoiseID = property.getNextUsableItemID(config, "Turquoise Spade").getInt();
-        Properties.pickTurquoiseID = property.getNextUsableItemID(config, "Turquoise Pick").getInt();
-        Properties.swordTurquoiseID = property.getNextUsableItemID(config, "Turquoise Sword").getInt();
+        Properties.axeTurquoiseID = config.getItem("Turquoise Axe", Properties.itemID).getInt();
+        Properties.hoeTurquoiseID = config.getItem("Turquoise Hoe", Properties.itemID).getInt();
+        Properties.spadeTurquoiseID = config.getItem("Turquoise Spade", Properties.itemID).getInt();
+        Properties.pickTurquoiseID = config.getItem("Turquoise Pick", Properties.itemID).getInt();
+        Properties.swordTurquoiseID = config.getItem("Turquoise Sword", Properties.itemID).getInt();
 
-        Properties.axeWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Axe").getInt();
-        Properties.hoeWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Hoe").getInt();
-        Properties.spadeWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Spade").getInt();
-        Properties.pickWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Pick").getInt();
-        Properties.swordWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Sword").getInt();
+        Properties.axeWAlabasterID = config.getItem("WAlabaster Axe", Properties.itemID).getInt();
+        Properties.hoeWAlabasterID = config.getItem("WAlabaster Hoe", Properties.itemID).getInt();
+        Properties.spadeWAlabasterID = config.getItem("WAlabaster Spade", Properties.itemID).getInt();
+        Properties.pickWAlabasterID = config.getItem("WAlabaster Pick", Properties.itemID).getInt();
+        Properties.swordWAlabasterID = config.getItem("WAlabaster Sword", Properties.itemID).getInt();
     }
 }

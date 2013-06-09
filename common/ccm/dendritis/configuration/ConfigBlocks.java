@@ -1,7 +1,6 @@
 package ccm.dendritis.configuration;
 
-import net.minecraftforge.common.Configuration;
-
+import ccm.nucleum_omnium.configuration.AdvConfiguration;
 import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.Dendritis;
@@ -14,12 +13,12 @@ final class ConfigBlocks extends Config
      * Loads or creates the Blocks in the Configuration file.
      * 
      * @param config
-     *            The Configuration file that is being edited.
+     *            The {@link AdvConfiguration} file that is being edited.
      */
-    protected static void configBlocks(final Configuration config)
+    protected static void configBlocks(final AdvConfiguration config)
     {
         Handler.log(Dendritis.instance, "Loading Blocks Configs");
-        Properties.oreID = property.getNextUsableBlockID(config, "Ores").getInt();
-        Properties.blocksID = property.getNextUsableBlockID(config, "Blocks").getInt();
+        Properties.oreID = config.getBlock("Ores", Properties.blockID).getInt();
+        Properties.blocksID = config.getBlock("Blocks", Properties.blockID).getInt();
     }
 }

@@ -1,7 +1,6 @@
 package ccm.dendritis.configuration;
 
-import net.minecraftforge.common.Configuration;
-
+import ccm.nucleum_omnium.configuration.AdvConfiguration;
 import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.Dendritis;
@@ -14,12 +13,12 @@ final class ConfigItems extends Config
      * Loads or creates the Items in the Configuration file.
      * 
      * @param config
-     *            The Configuration file that is being edited.
+     *            The {@link AdvConfiguration} file that is being edited.
      */
-    protected static void configItems(final Configuration config)
+    protected static void configItems(final AdvConfiguration config)
     {
         Handler.log(Dendritis.instance, "Loading Items Configs");
-        Properties.itemMainID = property.getNextUsableItemID(config, "All the Other Items").getInt();
-        Properties.itemGemsID = property.getNextUsableItemID(config, "All the Gems").getInt();
+        Properties.itemMainID = config.getItem("All the Other Items", Properties.itemID).getInt();
+        Properties.itemGemsID = config.getItem("All the Gems", Properties.itemID).getInt();
     }
 }

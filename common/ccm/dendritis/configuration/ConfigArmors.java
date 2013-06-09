@@ -1,7 +1,6 @@
 package ccm.dendritis.configuration;
 
-import net.minecraftforge.common.Configuration;
-
+import ccm.nucleum_omnium.configuration.AdvConfiguration;
 import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.Dendritis;
@@ -14,95 +13,95 @@ final class ConfigArmors extends Config
      * Loads or creates the Usable Items in the Configuration file.
      * 
      * @param config
-     *            The Configuration file that is being edited.
+     *            The {@link AdvConfiguration} file that is being edited.
      */
-    protected static void configArmors(final Configuration config)
+    protected static void configArmors(final AdvConfiguration config)
     {
         Handler.log(Dendritis.instance, "Loading Tools Configs");
 
-        Properties.headAmethystID = property.getNextUsableItemID(config, "Amethyst Head").getInt();
-        Properties.chestAmethystID = property.getNextUsableItemID(config, "Amethyst Chest").getInt();
-        Properties.legsAmethystID = property.getNextUsableItemID(config, "Amethyst Legs").getInt();
-        Properties.bootsAmethystID = property.getNextUsableItemID(config, "Amethyst Boots").getInt();
+        Properties.headAmethystID = config.getItem("Amethyst Head", Properties.itemID).getInt();
+        Properties.chestAmethystID = config.getItem("Amethyst Chest", Properties.itemID).getInt();
+        Properties.legsAmethystID = config.getItem("Amethyst Legs", Properties.itemID).getInt();
+        Properties.bootsAmethystID = config.getItem("Amethyst Boots", Properties.itemID).getInt();
 
-        Properties.headBDiamondID = property.getNextUsableItemID(config, "BDiamond Head").getInt();
-        Properties.chestBDiamondID = property.getNextUsableItemID(config, "BDiamond Chest").getInt();
-        Properties.legsBDiamondID = property.getNextUsableItemID(config, "BDiamond Legs").getInt();
-        Properties.bootsBDiamondID = property.getNextUsableItemID(config, "BDiamond Boots").getInt();
+        Properties.headBDiamondID = config.getItem("BDiamond Head", Properties.itemID).getInt();
+        Properties.chestBDiamondID = config.getItem("BDiamond Chest", Properties.itemID).getInt();
+        Properties.legsBDiamondID = config.getItem("BDiamond Legs", Properties.itemID).getInt();
+        Properties.bootsBDiamondID = config.getItem("BDiamond Boots", Properties.itemID).getInt();
 
-        Properties.headCitrineID = property.getNextUsableItemID(config, "Citrine Head").getInt();
-        Properties.chestCitrineID = property.getNextUsableItemID(config, "Citrine Chest").getInt();
-        Properties.legsCitrineID = property.getNextUsableItemID(config, "Citrine Legs").getInt();
-        Properties.bootsCitrineID = property.getNextUsableItemID(config, "Citrine Boots").getInt();
+        Properties.headCitrineID = config.getItem("Citrine Head", Properties.itemID).getInt();
+        Properties.chestCitrineID = config.getItem("Citrine Chest", Properties.itemID).getInt();
+        Properties.legsCitrineID = config.getItem("Citrine Legs", Properties.itemID).getInt();
+        Properties.bootsCitrineID = config.getItem("Citrine Boots", Properties.itemID).getInt();
 
-        Properties.headCZirconiaID = property.getNextUsableItemID(config, "CZirconia Head").getInt();
-        Properties.chestCZirconiaID = property.getNextUsableItemID(config, "CZirconia Chest").getInt();
-        Properties.legsCZirconiaID = property.getNextUsableItemID(config, "CZirconia Legs").getInt();
-        Properties.bootsCZirconiaID = property.getNextUsableItemID(config, "CZirconia Boots").getInt();
+        Properties.headCZirconiaID = config.getItem("CZirconia Head", Properties.itemID).getInt();
+        Properties.chestCZirconiaID = config.getItem("CZirconia Chest", Properties.itemID).getInt();
+        Properties.legsCZirconiaID = config.getItem("CZirconia Legs", Properties.itemID).getInt();
+        Properties.bootsCZirconiaID = config.getItem("CZirconia Boots", Properties.itemID).getInt();
 
-        Properties.headEmeraldID = property.getNextUsableItemID(config, "Emerald Head").getInt();
-        Properties.chestEmeraldID = property.getNextUsableItemID(config, "Emerald Chest").getInt();
-        Properties.legsEmeraldID = property.getNextUsableItemID(config, "Emerald Legs").getInt();
-        Properties.bootsEmeraldID = property.getNextUsableItemID(config, "Emerald Boots").getInt();
+        Properties.headEmeraldID = config.getItem("Emerald Head", Properties.itemID).getInt();
+        Properties.chestEmeraldID = config.getItem("Emerald Chest", Properties.itemID).getInt();
+        Properties.legsEmeraldID = config.getItem("Emerald Legs", Properties.itemID).getInt();
+        Properties.bootsEmeraldID = config.getItem("Emerald Boots", Properties.itemID).getInt();
 
-        Properties.headFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Head").getInt();
-        Properties.chestFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Chest").getInt();
-        Properties.legsFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Legs").getInt();
-        Properties.bootsFuchsiaID = property.getNextUsableItemID(config, "Fuchsia Boots").getInt();
+        Properties.headFuchsiaID = config.getItem("Fuchsia Head", Properties.itemID).getInt();
+        Properties.chestFuchsiaID = config.getItem("Fuchsia Chest", Properties.itemID).getInt();
+        Properties.legsFuchsiaID = config.getItem("Fuchsia Legs", Properties.itemID).getInt();
+        Properties.bootsFuchsiaID = config.getItem("Fuchsia Boots", Properties.itemID).getInt();
 
-        Properties.headJetID = property.getNextUsableItemID(config, "Jet Head").getInt();
-        Properties.chestJetID = property.getNextUsableItemID(config, "Jet Chest").getInt();
-        Properties.legsJetID = property.getNextUsableItemID(config, "Jet Legs").getInt();
-        Properties.bootsJetID = property.getNextUsableItemID(config, "Jet Boots").getInt();
+        Properties.headJetID = config.getItem("Jet Head", Properties.itemID).getInt();
+        Properties.chestJetID = config.getItem("Jet Chest", Properties.itemID).getInt();
+        Properties.legsJetID = config.getItem("Jet Legs", Properties.itemID).getInt();
+        Properties.bootsJetID = config.getItem("Jet Boots", Properties.itemID).getInt();
 
-        Properties.headOlivineID = property.getNextUsableItemID(config, "Olivine Head").getInt();
-        Properties.chestOlivineID = property.getNextUsableItemID(config, "Olivine Chest").getInt();
-        Properties.legsOlivineID = property.getNextUsableItemID(config, "Olivine Legs").getInt();
-        Properties.bootsOlivineID = property.getNextUsableItemID(config, "Olivine Boots").getInt();
+        Properties.headOlivineID = config.getItem("Olivine Head", Properties.itemID).getInt();
+        Properties.chestOlivineID = config.getItem("Olivine Chest", Properties.itemID).getInt();
+        Properties.legsOlivineID = config.getItem("Olivine Legs", Properties.itemID).getInt();
+        Properties.bootsOlivineID = config.getItem("Olivine Boots", Properties.itemID).getInt();
 
-        Properties.headOpalID = property.getNextUsableItemID(config, "Opal Head").getInt();
-        Properties.chestOpalID = property.getNextUsableItemID(config, "Opal Chest").getInt();
-        Properties.legsOpalID = property.getNextUsableItemID(config, "Opal Legs").getInt();
-        Properties.bootsOpalID = property.getNextUsableItemID(config, "Opal Boots").getInt();
+        Properties.headOpalID = config.getItem("Opal Head", Properties.itemID).getInt();
+        Properties.chestOpalID = config.getItem("Opal Chest", Properties.itemID).getInt();
+        Properties.legsOpalID = config.getItem("Opal Legs", Properties.itemID).getInt();
+        Properties.bootsOpalID = config.getItem("Opal Boots", Properties.itemID).getInt();
 
-        Properties.headQuartzID = property.getNextUsableItemID(config, "Quartz Head").getInt();
-        Properties.chestQuartzID = property.getNextUsableItemID(config, "Quartz Chest").getInt();
-        Properties.legsQuartzID = property.getNextUsableItemID(config, "Quartz Legs").getInt();
-        Properties.bootsQuartzID = property.getNextUsableItemID(config, "Quartz Boots").getInt();
+        Properties.headQuartzID = config.getItem("Quartz Head", Properties.itemID).getInt();
+        Properties.chestQuartzID = config.getItem("Quartz Chest", Properties.itemID).getInt();
+        Properties.legsQuartzID = config.getItem("Quartz Legs", Properties.itemID).getInt();
+        Properties.bootsQuartzID = config.getItem("Quartz Boots", Properties.itemID).getInt();
 
-        Properties.headRubyID = property.getNextUsableItemID(config, "Ruby Head").getInt();
-        Properties.chestRubyID = property.getNextUsableItemID(config, "Ruby Chest").getInt();
-        Properties.legsRubyID = property.getNextUsableItemID(config, "Ruby Legs").getInt();
-        Properties.bootsRubyID = property.getNextUsableItemID(config, "Ruby Boots").getInt();
+        Properties.headRubyID = config.getItem("Ruby Head", Properties.itemID).getInt();
+        Properties.chestRubyID = config.getItem("Ruby Chest", Properties.itemID).getInt();
+        Properties.legsRubyID = config.getItem("Ruby Legs", Properties.itemID).getInt();
+        Properties.bootsRubyID = config.getItem("Ruby Boots", Properties.itemID).getInt();
 
-        Properties.headSapphireID = property.getNextUsableItemID(config, "Sapphire Head").getInt();
-        Properties.chestSapphireID = property.getNextUsableItemID(config, "Sapphire Chest").getInt();
-        Properties.legsSapphireID = property.getNextUsableItemID(config, "Sapphire Legs").getInt();
-        Properties.bootsSapphireID = property.getNextUsableItemID(config, "Sapphire Boots").getInt();
+        Properties.headSapphireID = config.getItem("Sapphire Head", Properties.itemID).getInt();
+        Properties.chestSapphireID = config.getItem("Sapphire Chest", Properties.itemID).getInt();
+        Properties.legsSapphireID = config.getItem("Sapphire Legs", Properties.itemID).getInt();
+        Properties.bootsSapphireID = config.getItem("Sapphire Boots", Properties.itemID).getInt();
 
-        Properties.headSQuartzID = property.getNextUsableItemID(config, "SQuartz Head").getInt();
-        Properties.chestSQuartzID = property.getNextUsableItemID(config, "SQuartz Chest").getInt();
-        Properties.legsSQuartzID = property.getNextUsableItemID(config, "SQuartz Legs").getInt();
-        Properties.bootsSQuartzID = property.getNextUsableItemID(config, "SQuartz Boots").getInt();
+        Properties.headSQuartzID = config.getItem("SQuartz Head", Properties.itemID).getInt();
+        Properties.chestSQuartzID = config.getItem("SQuartz Chest", Properties.itemID).getInt();
+        Properties.legsSQuartzID = config.getItem("SQuartz Legs", Properties.itemID).getInt();
+        Properties.bootsSQuartzID = config.getItem("SQuartz Boots", Properties.itemID).getInt();
 
-        Properties.headSunID = property.getNextUsableItemID(config, "Sun Head").getInt();
-        Properties.chestSunID = property.getNextUsableItemID(config, "Sun Chest").getInt();
-        Properties.legsSunID = property.getNextUsableItemID(config, "Sun Legs").getInt();
-        Properties.bootsSunID = property.getNextUsableItemID(config, "Sun Boots").getInt();
+        Properties.headSunID = config.getItem("Sun Head", Properties.itemID).getInt();
+        Properties.chestSunID = config.getItem("Sun Chest", Properties.itemID).getInt();
+        Properties.legsSunID = config.getItem("Sun Legs", Properties.itemID).getInt();
+        Properties.bootsSunID = config.getItem("Sun Boots", Properties.itemID).getInt();
 
-        Properties.headTopazID = property.getNextUsableItemID(config, "Topaz Head").getInt();
-        Properties.chestTopazID = property.getNextUsableItemID(config, "Topaz Chest").getInt();
-        Properties.legsTopazID = property.getNextUsableItemID(config, "Topaz Legs").getInt();
-        Properties.bootsTopazID = property.getNextUsableItemID(config, "Topaz Boots").getInt();
+        Properties.headTopazID = config.getItem("Topaz Head", Properties.itemID).getInt();
+        Properties.chestTopazID = config.getItem("Topaz Chest", Properties.itemID).getInt();
+        Properties.legsTopazID = config.getItem("Topaz Legs", Properties.itemID).getInt();
+        Properties.bootsTopazID = config.getItem("Topaz Boots", Properties.itemID).getInt();
 
-        Properties.headTurquoiseID = property.getNextUsableItemID(config, "Turquoise Head").getInt();
-        Properties.chestTurquoiseID = property.getNextUsableItemID(config, "Turquoise Chest").getInt();
-        Properties.legsTurquoiseID = property.getNextUsableItemID(config, "Turquoise Legs").getInt();
-        Properties.bootsTurquoiseID = property.getNextUsableItemID(config, "Turquoise Boots").getInt();
+        Properties.headTurquoiseID = config.getItem("Turquoise Head", Properties.itemID).getInt();
+        Properties.chestTurquoiseID = config.getItem("Turquoise Chest", Properties.itemID).getInt();
+        Properties.legsTurquoiseID = config.getItem("Turquoise Legs", Properties.itemID).getInt();
+        Properties.bootsTurquoiseID = config.getItem("Turquoise Boots", Properties.itemID).getInt();
 
-        Properties.headWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Head").getInt();
-        Properties.chestWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Chest").getInt();
-        Properties.legsWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Legs").getInt();
-        Properties.bootsWAlabasterID = property.getNextUsableItemID(config, "WAlabaster Boots").getInt();
+        Properties.headWAlabasterID = config.getItem("WAlabaster Head", Properties.itemID).getInt();
+        Properties.chestWAlabasterID = config.getItem("WAlabaster Chest", Properties.itemID).getInt();
+        Properties.legsWAlabasterID = config.getItem("WAlabaster Legs", Properties.itemID).getInt();
+        Properties.bootsWAlabasterID = config.getItem("WAlabaster Boots", Properties.itemID).getInt();
     }
 }
