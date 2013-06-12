@@ -5,10 +5,10 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-import ccm.nucleum_omnium.helper.TextureHelper;
 
 import ccm.dendritis.creativetab.DendritisTabs;
 import ccm.dendritis.utils.lib.Locations;
+import ccm.nucleum.helper.TextureHelper;
 
 public class BaseUseableItem extends BaseItemClass
 {

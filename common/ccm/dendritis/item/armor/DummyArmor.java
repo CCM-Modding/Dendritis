@@ -9,11 +9,11 @@ import net.minecraftforge.common.IArmorTextureProvider;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-import ccm.nucleum_omnium.helper.TextureHelper;
 
 import ccm.dendritis.creativetab.DendritisTabs;
 import ccm.dendritis.item.ModArmors;
 import ccm.dendritis.utils.lib.Locations;
+import ccm.nucleum.helper.TextureHelper;
 
 @SuppressWarnings("deprecation")
 public class DummyArmor extends ItemArmor implements IArmorTextureProvider

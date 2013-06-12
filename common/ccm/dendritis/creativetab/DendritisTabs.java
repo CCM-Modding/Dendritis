@@ -2,8 +2,6 @@ package ccm.dendritis.creativetab;
 
 import net.minecraft.item.ItemStack;
 
-import ccm.nucleum_omnium.creativetab.CreativeTab;
-import ccm.nucleum_omnium.helper.enums.EnumHelper;
 
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
@@ -11,6 +9,8 @@ import ccm.dendritis.enums.EnumMain;
 import ccm.dendritis.item.ModArmors;
 import ccm.dendritis.item.ModTools;
 import ccm.dendritis.utils.lib.Archive;
+import ccm.nucleum.creativetab.CreativeTab;
+import ccm.nucleum.helper.enums.EnumHelper;
 
 public class DendritisTabs
 {

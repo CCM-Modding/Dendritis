@@ -4,10 +4,10 @@ import net.minecraft.item.crafting.CraftingManager;
 import net.minecraftforge.oredict.ShapedOreRecipe;
 import net.minecraftforge.oredict.ShapelessOreRecipe;
 
-import ccm.nucleum_omnium.helper.enums.EnumHelper;
 
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
+import ccm.nucleum.helper.enums.EnumHelper;
 
 final class RecipesCraftingBlocks
 {

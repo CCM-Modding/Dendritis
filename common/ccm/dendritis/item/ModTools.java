@@ -2,7 +2,6 @@ package ccm.dendritis.item;
 
 import net.minecraft.item.Item;
 
-import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.item.tool.DummyAxe;
@@ -12,6 +11,7 @@ import ccm.dendritis.item.tool.DummySpade;
 import ccm.dendritis.item.tool.DummySword;
 import ccm.dendritis.item.tool.ToolMaterials;
 import ccm.dendritis.utils.lib.Properties;
+import ccm.nucleum.handler.Handler;
 
 public final class ModTools
 {

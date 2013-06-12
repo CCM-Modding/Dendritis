@@ -17,9 +17,6 @@ import cpw.mods.fml.common.network.NetworkMod;
 
 import lib.org.modstats.ModstatInfo;
 
-import ccm.nucleum_omnium.BaseMod;
-import ccm.nucleum_omnium.IMod;
-import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.block.ModBlocks;
 import ccm.dendritis.configuration.Config;
@@ -33,6 +30,9 @@ import ccm.dendritis.utils.language.DendritisLanguagePack;
 import ccm.dendritis.utils.lib.Archive;
 import ccm.dendritis.utils.lib.Locations;
 import ccm.dendritis.utils.registry.Registry;
+import ccm.nucleum.BaseMod;
+import ccm.nucleum.IMod;
+import ccm.nucleum.handler.Handler;
 
 @Mod(modid = Archive.MOD_ID,
      name = Archive.MOD_NAME,

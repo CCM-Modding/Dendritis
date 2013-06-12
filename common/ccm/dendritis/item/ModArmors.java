@@ -2,12 +2,12 @@ package ccm.dendritis.item;
 
 import net.minecraft.item.Item;
 
-import ccm.nucleum_omnium.handler.Handler;
 
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.item.armor.ArmorMaterials;
 import ccm.dendritis.item.armor.DummyArmor;
 import ccm.dendritis.utils.lib.Properties;
+import ccm.nucleum.handler.Handler;
 
 public final class ModArmors
 {
