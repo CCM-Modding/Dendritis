@@ -1,8 +1,6 @@
 package ccm.dendritis.item;
 
 import net.minecraft.item.Item;
-
-
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.item.tool.DummyAxe;
 import ccm.dendritis.item.tool.DummyHoe;
@@ -13,8 +11,7 @@ import ccm.dendritis.item.tool.ToolMaterials;
 import ccm.dendritis.utils.lib.Properties;
 import ccm.nucleum.handler.Handler;
 
-public final class ModTools
-{
+public final class ModTools {
 
     public static Item axeAmethyst;
 
@@ -189,111 +186,195 @@ public final class ModTools
     /**
      * Creates all the Item Objects in the Mod.
      */
-    public static void init()
-    {
+    public static void init() {
         Handler.log(Dendritis.instance, "Loading Items");
 
-        axeAmethyst = new DummyAxe(Properties.axeAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName("axeAmethyst");
-        hoeAmethyst = new DummyHoe(Properties.hoeAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName("hoeAmethyst");
-        spadeAmethyst = new DummySpade(Properties.spadeAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName("spadeAmethyst");
-        pickAmethyst = new DummyPick(Properties.pickAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName("pickAmethyst");
-        swordAmethyst = new DummySword(Properties.swordAmethystID, ToolMaterials.toolAMETHYST).setUnlocalizedName("swordAmethyst");
+        ModTools.axeAmethyst = new DummyAxe(Properties.axeAmethystID, ToolMaterials.toolAMETHYST)
+                .setUnlocalizedName("axeAmethyst");
+        ModTools.hoeAmethyst = new DummyHoe(Properties.hoeAmethystID, ToolMaterials.toolAMETHYST)
+                .setUnlocalizedName("hoeAmethyst");
+        ModTools.spadeAmethyst = new DummySpade(Properties.spadeAmethystID,
+                ToolMaterials.toolAMETHYST).setUnlocalizedName("spadeAmethyst");
+        ModTools.pickAmethyst = new DummyPick(Properties.pickAmethystID, ToolMaterials.toolAMETHYST)
+                .setUnlocalizedName("pickAmethyst");
+        ModTools.swordAmethyst = new DummySword(Properties.swordAmethystID,
+                ToolMaterials.toolAMETHYST).setUnlocalizedName("swordAmethyst");
 
-        axeBDiamond = new DummyAxe(Properties.axeBDiamondID, ToolMaterials.toolBDIAMOND).setUnlocalizedName("axeBDiamond");
-        hoeBDiamond = new DummyHoe(Properties.hoeBDiamondID, ToolMaterials.toolBDIAMOND).setUnlocalizedName("hoeBDiamond");
-        spadeBDiamond = new DummySpade(Properties.spadeBDiamondID, ToolMaterials.toolBDIAMOND).setUnlocalizedName("spadeBDiamond");
-        pickBDiamond = new DummyPick(Properties.pickBDiamondID, ToolMaterials.toolBDIAMOND).setUnlocalizedName("pickBDiamond");
-        swordBDiamond = new DummySword(Properties.swordBDiamondID, ToolMaterials.toolBDIAMOND).setUnlocalizedName("swordBDiamond");
+        ModTools.axeBDiamond = new DummyAxe(Properties.axeBDiamondID, ToolMaterials.toolBDIAMOND)
+                .setUnlocalizedName("axeBDiamond");
+        ModTools.hoeBDiamond = new DummyHoe(Properties.hoeBDiamondID, ToolMaterials.toolBDIAMOND)
+                .setUnlocalizedName("hoeBDiamond");
+        ModTools.spadeBDiamond = new DummySpade(Properties.spadeBDiamondID,
+                ToolMaterials.toolBDIAMOND).setUnlocalizedName("spadeBDiamond");
+        ModTools.pickBDiamond = new DummyPick(Properties.pickBDiamondID, ToolMaterials.toolBDIAMOND)
+                .setUnlocalizedName("pickBDiamond");
+        ModTools.swordBDiamond = new DummySword(Properties.swordBDiamondID,
+                ToolMaterials.toolBDIAMOND).setUnlocalizedName("swordBDiamond");
 
-        axeCitrine = new DummyAxe(Properties.axeCitrineID, ToolMaterials.toolCITRINE).setUnlocalizedName("axeCitrine");
-        hoeCitrine = new DummyHoe(Properties.hoeCitrineID, ToolMaterials.toolCITRINE).setUnlocalizedName("hoeCitrine");
-        spadeCitrine = new DummySpade(Properties.spadeCitrineID, ToolMaterials.toolCITRINE).setUnlocalizedName("spadeCitrine");
-        pickCitrine = new DummyPick(Properties.pickCitrineID, ToolMaterials.toolCITRINE).setUnlocalizedName("pickCitrine");
-        swordCitrine = new DummySword(Properties.swordCitrineID, ToolMaterials.toolCITRINE).setUnlocalizedName("swordCitrine");
+        ModTools.axeCitrine = new DummyAxe(Properties.axeCitrineID, ToolMaterials.toolCITRINE)
+                .setUnlocalizedName("axeCitrine");
+        ModTools.hoeCitrine = new DummyHoe(Properties.hoeCitrineID, ToolMaterials.toolCITRINE)
+                .setUnlocalizedName("hoeCitrine");
+        ModTools.spadeCitrine = new DummySpade(Properties.spadeCitrineID, ToolMaterials.toolCITRINE)
+                .setUnlocalizedName("spadeCitrine");
+        ModTools.pickCitrine = new DummyPick(Properties.pickCitrineID, ToolMaterials.toolCITRINE)
+                .setUnlocalizedName("pickCitrine");
+        ModTools.swordCitrine = new DummySword(Properties.swordCitrineID, ToolMaterials.toolCITRINE)
+                .setUnlocalizedName("swordCitrine");
 
-        axeCZirconia = new DummyAxe(Properties.axeCZirconiaID, ToolMaterials.toolCZIRCONIA).setUnlocalizedName("axeCZirconia");
-        hoeCZirconia = new DummyHoe(Properties.hoeCZirconiaID, ToolMaterials.toolCZIRCONIA).setUnlocalizedName("hoeCZirconia");
-        spadeCZirconia = new DummySpade(Properties.spadeCZirconiaID, ToolMaterials.toolCZIRCONIA).setUnlocalizedName("spadeCZirconia");
-        pickCZirconia = new DummyPick(Properties.pickCZirconiaID, ToolMaterials.toolCZIRCONIA).setUnlocalizedName("pickCZirconia");
-        swordCZirconia = new DummySword(Properties.swordCZirconiaID, ToolMaterials.toolCZIRCONIA).setUnlocalizedName("swordCZirconia");
+        ModTools.axeCZirconia = new DummyAxe(Properties.axeCZirconiaID, ToolMaterials.toolCZIRCONIA)
+                .setUnlocalizedName("axeCZirconia");
+        ModTools.hoeCZirconia = new DummyHoe(Properties.hoeCZirconiaID, ToolMaterials.toolCZIRCONIA)
+                .setUnlocalizedName("hoeCZirconia");
+        ModTools.spadeCZirconia = new DummySpade(Properties.spadeCZirconiaID,
+                ToolMaterials.toolCZIRCONIA).setUnlocalizedName("spadeCZirconia");
+        ModTools.pickCZirconia = new DummyPick(Properties.pickCZirconiaID,
+                ToolMaterials.toolCZIRCONIA).setUnlocalizedName("pickCZirconia");
+        ModTools.swordCZirconia = new DummySword(Properties.swordCZirconiaID,
+                ToolMaterials.toolCZIRCONIA).setUnlocalizedName("swordCZirconia");
 
-        axeEmerald = new DummyAxe(Properties.axeEmeraldID, ToolMaterials.toolEMERALD).setUnlocalizedName("axeEmerald");
-        hoeEmerald = new DummyHoe(Properties.hoeEmeraldID, ToolMaterials.toolEMERALD).setUnlocalizedName("hoeEmerald");
-        spadeEmerald = new DummySpade(Properties.spadeEmeraldID, ToolMaterials.toolEMERALD).setUnlocalizedName("spadeEmerald");
-        pickEmerald = new DummyPick(Properties.pickEmeraldID, ToolMaterials.toolEMERALD).setUnlocalizedName("pickEmerald");
-        swordEmerald = new DummySword(Properties.swordEmeraldID, ToolMaterials.toolEMERALD).setUnlocalizedName("swordEmerald");
+        ModTools.axeEmerald = new DummyAxe(Properties.axeEmeraldID, ToolMaterials.toolEMERALD)
+                .setUnlocalizedName("axeEmerald");
+        ModTools.hoeEmerald = new DummyHoe(Properties.hoeEmeraldID, ToolMaterials.toolEMERALD)
+                .setUnlocalizedName("hoeEmerald");
+        ModTools.spadeEmerald = new DummySpade(Properties.spadeEmeraldID, ToolMaterials.toolEMERALD)
+                .setUnlocalizedName("spadeEmerald");
+        ModTools.pickEmerald = new DummyPick(Properties.pickEmeraldID, ToolMaterials.toolEMERALD)
+                .setUnlocalizedName("pickEmerald");
+        ModTools.swordEmerald = new DummySword(Properties.swordEmeraldID, ToolMaterials.toolEMERALD)
+                .setUnlocalizedName("swordEmerald");
 
-        axeFuchsia = new DummyAxe(Properties.axeFuchsiaID, ToolMaterials.toolFUCHSIA).setUnlocalizedName("axeFuchsia");
-        hoeFuchsia = new DummyHoe(Properties.hoeFuchsiaID, ToolMaterials.toolFUCHSIA).setUnlocalizedName("hoeFuchsia");
-        spadeFuchsia = new DummySpade(Properties.spadeFuchsiaID, ToolMaterials.toolFUCHSIA).setUnlocalizedName("spadeFuchsia");
-        pickFuchsia = new DummyPick(Properties.pickFuchsiaID, ToolMaterials.toolFUCHSIA).setUnlocalizedName("pickFuchsia");
-        swordFuchsia = new DummySword(Properties.swordFuchsiaID, ToolMaterials.toolFUCHSIA).setUnlocalizedName("swordFuchsia");
+        ModTools.axeFuchsia = new DummyAxe(Properties.axeFuchsiaID, ToolMaterials.toolFUCHSIA)
+                .setUnlocalizedName("axeFuchsia");
+        ModTools.hoeFuchsia = new DummyHoe(Properties.hoeFuchsiaID, ToolMaterials.toolFUCHSIA)
+                .setUnlocalizedName("hoeFuchsia");
+        ModTools.spadeFuchsia = new DummySpade(Properties.spadeFuchsiaID, ToolMaterials.toolFUCHSIA)
+                .setUnlocalizedName("spadeFuchsia");
+        ModTools.pickFuchsia = new DummyPick(Properties.pickFuchsiaID, ToolMaterials.toolFUCHSIA)
+                .setUnlocalizedName("pickFuchsia");
+        ModTools.swordFuchsia = new DummySword(Properties.swordFuchsiaID, ToolMaterials.toolFUCHSIA)
+                .setUnlocalizedName("swordFuchsia");
 
-        axeJet = new DummyAxe(Properties.axeJetID, ToolMaterials.toolJET).setUnlocalizedName("axeJet");
-        hoeJet = new DummyHoe(Properties.hoeJetID, ToolMaterials.toolJET).setUnlocalizedName("hoeJet");
-        spadeJet = new DummySpade(Properties.spadeJetID, ToolMaterials.toolJET).setUnlocalizedName("spadeJet");
-        pickJet = new DummyPick(Properties.pickJetID, ToolMaterials.toolJET).setUnlocalizedName("pickJet");
-        swordJet = new DummySword(Properties.swordJetID, ToolMaterials.toolJET).setUnlocalizedName("swordJet");
+        ModTools.axeJet = new DummyAxe(Properties.axeJetID, ToolMaterials.toolJET)
+                .setUnlocalizedName("axeJet");
+        ModTools.hoeJet = new DummyHoe(Properties.hoeJetID, ToolMaterials.toolJET)
+                .setUnlocalizedName("hoeJet");
+        ModTools.spadeJet = new DummySpade(Properties.spadeJetID, ToolMaterials.toolJET)
+                .setUnlocalizedName("spadeJet");
+        ModTools.pickJet = new DummyPick(Properties.pickJetID, ToolMaterials.toolJET)
+                .setUnlocalizedName("pickJet");
+        ModTools.swordJet = new DummySword(Properties.swordJetID, ToolMaterials.toolJET)
+                .setUnlocalizedName("swordJet");
 
-        axeOlivine = new DummyAxe(Properties.axeOlivineID, ToolMaterials.toolOLIVINE).setUnlocalizedName("axeOlivine");
-        hoeOlivine = new DummyHoe(Properties.hoeOlivineID, ToolMaterials.toolOLIVINE).setUnlocalizedName("hoeOlivine");
-        spadeOlivine = new DummySpade(Properties.spadeOlivineID, ToolMaterials.toolOLIVINE).setUnlocalizedName("spadeOlivine");
-        pickOlivine = new DummyPick(Properties.pickOlivineID, ToolMaterials.toolOLIVINE).setUnlocalizedName("pickOlivine");
-        swordOlivine = new DummySword(Properties.swordOlivineID, ToolMaterials.toolOLIVINE).setUnlocalizedName("swordOlivine");
+        ModTools.axeOlivine = new DummyAxe(Properties.axeOlivineID, ToolMaterials.toolOLIVINE)
+                .setUnlocalizedName("axeOlivine");
+        ModTools.hoeOlivine = new DummyHoe(Properties.hoeOlivineID, ToolMaterials.toolOLIVINE)
+                .setUnlocalizedName("hoeOlivine");
+        ModTools.spadeOlivine = new DummySpade(Properties.spadeOlivineID, ToolMaterials.toolOLIVINE)
+                .setUnlocalizedName("spadeOlivine");
+        ModTools.pickOlivine = new DummyPick(Properties.pickOlivineID, ToolMaterials.toolOLIVINE)
+                .setUnlocalizedName("pickOlivine");
+        ModTools.swordOlivine = new DummySword(Properties.swordOlivineID, ToolMaterials.toolOLIVINE)
+                .setUnlocalizedName("swordOlivine");
 
-        axeOpal = new DummyAxe(Properties.axeOpalID, ToolMaterials.toolOPAL).setUnlocalizedName("axeOpal");
-        hoeOpal = new DummyHoe(Properties.hoeOpalID, ToolMaterials.toolOPAL).setUnlocalizedName("hoeOpal");
-        spadeOpal = new DummySpade(Properties.spadeOpalID, ToolMaterials.toolOPAL).setUnlocalizedName("spadeOpal");
-        pickOpal = new DummyPick(Properties.pickOpalID, ToolMaterials.toolOPAL).setUnlocalizedName("pickOpal");
-        swordOpal = new DummySword(Properties.swordOpalID, ToolMaterials.toolOPAL).setUnlocalizedName("swordOpal");
+        ModTools.axeOpal = new DummyAxe(Properties.axeOpalID, ToolMaterials.toolOPAL)
+                .setUnlocalizedName("axeOpal");
+        ModTools.hoeOpal = new DummyHoe(Properties.hoeOpalID, ToolMaterials.toolOPAL)
+                .setUnlocalizedName("hoeOpal");
+        ModTools.spadeOpal = new DummySpade(Properties.spadeOpalID, ToolMaterials.toolOPAL)
+                .setUnlocalizedName("spadeOpal");
+        ModTools.pickOpal = new DummyPick(Properties.pickOpalID, ToolMaterials.toolOPAL)
+                .setUnlocalizedName("pickOpal");
+        ModTools.swordOpal = new DummySword(Properties.swordOpalID, ToolMaterials.toolOPAL)
+                .setUnlocalizedName("swordOpal");
 
-        axeQuartz = new DummyAxe(Properties.axeQuartzID, ToolMaterials.toolQUARTZ).setUnlocalizedName("axeQuartz");
-        hoeQuartz = new DummyHoe(Properties.hoeQuartzID, ToolMaterials.toolQUARTZ).setUnlocalizedName("hoeQuartz");
-        spadeQuartz = new DummySpade(Properties.spadeQuartzID, ToolMaterials.toolQUARTZ).setUnlocalizedName("spadeQuartz");
-        pickQuartz = new DummyPick(Properties.pickQuartzID, ToolMaterials.toolQUARTZ).setUnlocalizedName("pickQuartz");
-        swordQuartz = new DummySword(Properties.swordQuartzID, ToolMaterials.toolQUARTZ).setUnlocalizedName("swordQuartz");
+        ModTools.axeQuartz = new DummyAxe(Properties.axeQuartzID, ToolMaterials.toolQUARTZ)
+                .setUnlocalizedName("axeQuartz");
+        ModTools.hoeQuartz = new DummyHoe(Properties.hoeQuartzID, ToolMaterials.toolQUARTZ)
+                .setUnlocalizedName("hoeQuartz");
+        ModTools.spadeQuartz = new DummySpade(Properties.spadeQuartzID, ToolMaterials.toolQUARTZ)
+                .setUnlocalizedName("spadeQuartz");
+        ModTools.pickQuartz = new DummyPick(Properties.pickQuartzID, ToolMaterials.toolQUARTZ)
+                .setUnlocalizedName("pickQuartz");
+        ModTools.swordQuartz = new DummySword(Properties.swordQuartzID, ToolMaterials.toolQUARTZ)
+                .setUnlocalizedName("swordQuartz");
 
-        axeRuby = new DummyAxe(Properties.axeRubyID, ToolMaterials.toolRUBY).setUnlocalizedName("axeRuby");
-        hoeRuby = new DummyHoe(Properties.hoeRubyID, ToolMaterials.toolRUBY).setUnlocalizedName("hoeRuby");
-        spadeRuby = new DummySpade(Properties.spadeRubyID, ToolMaterials.toolRUBY).setUnlocalizedName("spadeRuby");
-        pickRuby = new DummyPick(Properties.pickRubyID, ToolMaterials.toolRUBY).setUnlocalizedName("pickRuby");
-        swordRuby = new DummySword(Properties.swordRubyID, ToolMaterials.toolRUBY).setUnlocalizedName("swordRuby");
+        ModTools.axeRuby = new DummyAxe(Properties.axeRubyID, ToolMaterials.toolRUBY)
+                .setUnlocalizedName("axeRuby");
+        ModTools.hoeRuby = new DummyHoe(Properties.hoeRubyID, ToolMaterials.toolRUBY)
+                .setUnlocalizedName("hoeRuby");
+        ModTools.spadeRuby = new DummySpade(Properties.spadeRubyID, ToolMaterials.toolRUBY)
+                .setUnlocalizedName("spadeRuby");
+        ModTools.pickRuby = new DummyPick(Properties.pickRubyID, ToolMaterials.toolRUBY)
+                .setUnlocalizedName("pickRuby");
+        ModTools.swordRuby = new DummySword(Properties.swordRubyID, ToolMaterials.toolRUBY)
+                .setUnlocalizedName("swordRuby");
 
-        axeSapphire = new DummyAxe(Properties.axeSapphireID, ToolMaterials.toolSAPPHIRE).setUnlocalizedName("axeSapphire");
-        hoeSapphire = new DummyHoe(Properties.hoeSapphireID, ToolMaterials.toolSAPPHIRE).setUnlocalizedName("hoeSapphire");
-        spadeSapphire = new DummySpade(Properties.spadeSapphireID, ToolMaterials.toolSAPPHIRE).setUnlocalizedName("spadeSapphire");
-        pickSapphire = new DummyPick(Properties.pickSapphireID, ToolMaterials.toolSAPPHIRE).setUnlocalizedName("pickSapphire");
-        swordSapphire = new DummySword(Properties.swordSapphireID, ToolMaterials.toolSAPPHIRE).setUnlocalizedName("swordSapphire");
+        ModTools.axeSapphire = new DummyAxe(Properties.axeSapphireID, ToolMaterials.toolSAPPHIRE)
+                .setUnlocalizedName("axeSapphire");
+        ModTools.hoeSapphire = new DummyHoe(Properties.hoeSapphireID, ToolMaterials.toolSAPPHIRE)
+                .setUnlocalizedName("hoeSapphire");
+        ModTools.spadeSapphire = new DummySpade(Properties.spadeSapphireID,
+                ToolMaterials.toolSAPPHIRE).setUnlocalizedName("spadeSapphire");
+        ModTools.pickSapphire = new DummyPick(Properties.pickSapphireID, ToolMaterials.toolSAPPHIRE)
+                .setUnlocalizedName("pickSapphire");
+        ModTools.swordSapphire = new DummySword(Properties.swordSapphireID,
+                ToolMaterials.toolSAPPHIRE).setUnlocalizedName("swordSapphire");
 
-        axeSQuartz = new DummyAxe(Properties.axeSQuartzID, ToolMaterials.toolSQUARTZ).setUnlocalizedName("axeSQuartz");
-        hoeSQuartz = new DummyHoe(Properties.hoeSQuartzID, ToolMaterials.toolSQUARTZ).setUnlocalizedName("hoeSQuartz");
-        spadeSQuartz = new DummySpade(Properties.spadeSQuartzID, ToolMaterials.toolSQUARTZ).setUnlocalizedName("spadeSQuartz");
-        pickSQuartz = new DummyPick(Properties.pickSQuartzID, ToolMaterials.toolSQUARTZ).setUnlocalizedName("pickSQuartz");
-        swordSQuartz = new DummySword(Properties.swordSQuartzID, ToolMaterials.toolSQUARTZ).setUnlocalizedName("swordSQuartz");
+        ModTools.axeSQuartz = new DummyAxe(Properties.axeSQuartzID, ToolMaterials.toolSQUARTZ)
+                .setUnlocalizedName("axeSQuartz");
+        ModTools.hoeSQuartz = new DummyHoe(Properties.hoeSQuartzID, ToolMaterials.toolSQUARTZ)
+                .setUnlocalizedName("hoeSQuartz");
+        ModTools.spadeSQuartz = new DummySpade(Properties.spadeSQuartzID, ToolMaterials.toolSQUARTZ)
+                .setUnlocalizedName("spadeSQuartz");
+        ModTools.pickSQuartz = new DummyPick(Properties.pickSQuartzID, ToolMaterials.toolSQUARTZ)
+                .setUnlocalizedName("pickSQuartz");
+        ModTools.swordSQuartz = new DummySword(Properties.swordSQuartzID, ToolMaterials.toolSQUARTZ)
+                .setUnlocalizedName("swordSQuartz");
 
-        axeSun = new DummyAxe(Properties.axeSunID, ToolMaterials.toolSUN).setUnlocalizedName("axeSun");
-        hoeSun = new DummyHoe(Properties.hoeSunID, ToolMaterials.toolSUN).setUnlocalizedName("hoeSun");
-        spadeSun = new DummySpade(Properties.spadeSunID, ToolMaterials.toolSUN).setUnlocalizedName("spadeSun");
-        pickSun = new DummyPick(Properties.pickSunID, ToolMaterials.toolSUN).setUnlocalizedName("pickSun");
-        swordSun = new DummySword(Properties.swordSunID, ToolMaterials.toolSUN).setUnlocalizedName("swordSun");
+        ModTools.axeSun = new DummyAxe(Properties.axeSunID, ToolMaterials.toolSUN)
+                .setUnlocalizedName("axeSun");
+        ModTools.hoeSun = new DummyHoe(Properties.hoeSunID, ToolMaterials.toolSUN)
+                .setUnlocalizedName("hoeSun");
+        ModTools.spadeSun = new DummySpade(Properties.spadeSunID, ToolMaterials.toolSUN)
+                .setUnlocalizedName("spadeSun");
+        ModTools.pickSun = new DummyPick(Properties.pickSunID, ToolMaterials.toolSUN)
+                .setUnlocalizedName("pickSun");
+        ModTools.swordSun = new DummySword(Properties.swordSunID, ToolMaterials.toolSUN)
+                .setUnlocalizedName("swordSun");
 
-        axeTopaz = new DummyAxe(Properties.axeTopazID, ToolMaterials.toolTOPAZ).setUnlocalizedName("axeTopaz");
-        hoeTopaz = new DummyHoe(Properties.hoeTopazID, ToolMaterials.toolTOPAZ).setUnlocalizedName("hoeTopaz");
-        spadeTopaz = new DummySpade(Properties.spadeTopazID, ToolMaterials.toolTOPAZ).setUnlocalizedName("spadeTopaz");
-        pickTopaz = new DummyPick(Properties.pickTopazID, ToolMaterials.toolTOPAZ).setUnlocalizedName("pickTopaz");
-        swordTopaz = new DummySword(Properties.swordTopazID, ToolMaterials.toolTOPAZ).setUnlocalizedName("swordTopaz");
+        ModTools.axeTopaz = new DummyAxe(Properties.axeTopazID, ToolMaterials.toolTOPAZ)
+                .setUnlocalizedName("axeTopaz");
+        ModTools.hoeTopaz = new DummyHoe(Properties.hoeTopazID, ToolMaterials.toolTOPAZ)
+                .setUnlocalizedName("hoeTopaz");
+        ModTools.spadeTopaz = new DummySpade(Properties.spadeTopazID, ToolMaterials.toolTOPAZ)
+                .setUnlocalizedName("spadeTopaz");
+        ModTools.pickTopaz = new DummyPick(Properties.pickTopazID, ToolMaterials.toolTOPAZ)
+                .setUnlocalizedName("pickTopaz");
+        ModTools.swordTopaz = new DummySword(Properties.swordTopazID, ToolMaterials.toolTOPAZ)
+                .setUnlocalizedName("swordTopaz");
 
-        axeTurquoise = new DummyAxe(Properties.axeTurquoiseID, ToolMaterials.toolTURQUOISE).setUnlocalizedName("axeTurquoise");
-        hoeTurquoise = new DummyHoe(Properties.hoeTurquoiseID, ToolMaterials.toolTURQUOISE).setUnlocalizedName("hoeTurquoise");
-        spadeTurquoise = new DummySpade(Properties.spadeTurquoiseID, ToolMaterials.toolTURQUOISE).setUnlocalizedName("spadeTurquoise");
-        pickTurquoise = new DummyPick(Properties.pickTurquoiseID, ToolMaterials.toolTURQUOISE).setUnlocalizedName("pickTurquoise");
-        swordTurquoise = new DummySword(Properties.swordTurquoiseID, ToolMaterials.toolTURQUOISE).setUnlocalizedName("swordTurquoise");
+        ModTools.axeTurquoise = new DummyAxe(Properties.axeTurquoiseID, ToolMaterials.toolTURQUOISE)
+                .setUnlocalizedName("axeTurquoise");
+        ModTools.hoeTurquoise = new DummyHoe(Properties.hoeTurquoiseID, ToolMaterials.toolTURQUOISE)
+                .setUnlocalizedName("hoeTurquoise");
+        ModTools.spadeTurquoise = new DummySpade(Properties.spadeTurquoiseID,
+                ToolMaterials.toolTURQUOISE).setUnlocalizedName("spadeTurquoise");
+        ModTools.pickTurquoise = new DummyPick(Properties.pickTurquoiseID,
+                ToolMaterials.toolTURQUOISE).setUnlocalizedName("pickTurquoise");
+        ModTools.swordTurquoise = new DummySword(Properties.swordTurquoiseID,
+                ToolMaterials.toolTURQUOISE).setUnlocalizedName("swordTurquoise");
 
-        axeWAlabaster = new DummyAxe(Properties.axeWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName("axeWAlabaster");
-        hoeWAlabaster = new DummyHoe(Properties.hoeWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName("hoeWAlabaster");
-        spadeWAlabaster = new DummySpade(Properties.spadeWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName("spadeWAlabaster");
-        pickWAlabaster = new DummyPick(Properties.pickWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName("pickWAlabaster");
-        swordWAlabaster = new DummySword(Properties.swordWAlabasterID, ToolMaterials.toolWALABASTER).setUnlocalizedName("swordWAlabaster");
+        ModTools.axeWAlabaster = new DummyAxe(Properties.axeWAlabasterID,
+                ToolMaterials.toolWALABASTER).setUnlocalizedName("axeWAlabaster");
+        ModTools.hoeWAlabaster = new DummyHoe(Properties.hoeWAlabasterID,
+                ToolMaterials.toolWALABASTER).setUnlocalizedName("hoeWAlabaster");
+        ModTools.spadeWAlabaster = new DummySpade(Properties.spadeWAlabasterID,
+                ToolMaterials.toolWALABASTER).setUnlocalizedName("spadeWAlabaster");
+        ModTools.pickWAlabaster = new DummyPick(Properties.pickWAlabasterID,
+                ToolMaterials.toolWALABASTER).setUnlocalizedName("pickWAlabaster");
+        ModTools.swordWAlabaster = new DummySword(Properties.swordWAlabasterID,
+                ToolMaterials.toolWALABASTER).setUnlocalizedName("swordWAlabaster");
 
     }
 }

@@ -1,13 +1,11 @@
 package ccm.dendritis.configuration;
 
-
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.utils.lib.Properties;
 import ccm.nucleum.configuration.AdvConfiguration;
 import ccm.nucleum.handler.Handler;
 
-final class ConfigArmors extends Config
-{
+final class ConfigArmors extends Config {
 
     /**
      * Loads or creates the Usable Items in the Configuration file.
@@ -15,8 +13,7 @@ final class ConfigArmors extends Config
      * @param config
      *            The {@link AdvConfiguration} file that is being edited.
      */
-    protected static void configArmors(final AdvConfiguration config)
-    {
+    protected static void configArmors(final AdvConfiguration config) {
         Handler.log(Dendritis.instance, "Loading Tools Configs");
 
         Properties.headAmethystID = config.getItem("Amethyst Head", Properties.itemID).getInt();
@@ -100,8 +97,10 @@ final class ConfigArmors extends Config
         Properties.bootsTurquoiseID = config.getItem("Turquoise Boots", Properties.itemID).getInt();
 
         Properties.headWAlabasterID = config.getItem("WAlabaster Head", Properties.itemID).getInt();
-        Properties.chestWAlabasterID = config.getItem("WAlabaster Chest", Properties.itemID).getInt();
+        Properties.chestWAlabasterID = config.getItem("WAlabaster Chest", Properties.itemID)
+                .getInt();
         Properties.legsWAlabasterID = config.getItem("WAlabaster Legs", Properties.itemID).getInt();
-        Properties.bootsWAlabasterID = config.getItem("WAlabaster Boots", Properties.itemID).getInt();
+        Properties.bootsWAlabasterID = config.getItem("WAlabaster Boots", Properties.itemID)
+                .getInt();
     }
 }

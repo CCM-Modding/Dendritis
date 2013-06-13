@@ -1,11 +1,9 @@
 package ccm.dendritis.configuration;
 
-
 import ccm.dendritis.utils.lib.Properties;
 import ccm.nucleum.configuration.AdvConfiguration;
 
-final class ConfigWorldGen extends Config
-{
+final class ConfigWorldGen extends Config {
 
     final static String gen  = "World Generation ";
 
@@ -45,23 +43,37 @@ final class ConfigWorldGen extends Config
      * @param config
      *            The {@link AdvConfiguration} file that is being edited.
      */
-    protected static void configWorldGen(final AdvConfiguration config)
-    {
+    protected static void configWorldGen(final AdvConfiguration config) {
 
-        Properties.enableWorldGenAmethyst = config.get(gen + ame, "EnableAmethyst", true).getBoolean(true);
-        Properties.enableWorldGenBDiamond = config.get(gen + bdi, "EnableBlackDiamond", true).getBoolean(true);
-        Properties.enableWorldGenCitrine = config.get(gen + cit, "EnableCitrine", true).getBoolean(true);
-        Properties.enableWorldGenCZirconia = config.get(gen + czi, "EnableCubicZirconia", true).getBoolean(true);
-        Properties.enableWorldGenFuchsia = config.get(gen + fuc, "EnableFuchsia", true).getBoolean(true);
-        Properties.enableWorldGenJet = config.get(gen + jet, "EnableJet", true).getBoolean(true);
-        Properties.enableWorldGenOlivine = config.get(gen + oli, "EnableOlivine", true).getBoolean(true);
-        Properties.enableWorldGenOpal = config.get(gen + opal, "EnableOpal", true).getBoolean(true);
-        Properties.enableWorldGenRuby = config.get(gen + ruby, "EnableRuby", true).getBoolean(true);
-        Properties.enableWorldGenSapphire = config.get(gen + sap, "EnableSapphire", true).getBoolean(true);
-        Properties.enableWorldGenSQuartz = config.get(gen + squ, "EnableSmokyQuartz", true).getBoolean(true);
-        Properties.enableWorldGenSun = config.get(gen + sun, "EnableSunJewl", true).getBoolean(true);
-        Properties.enableWorldGenTopaz = config.get(gen + top, "EnableTopaz", true).getBoolean(true);
-        Properties.enableWorldGenTurquoise = config.get(gen + tur, "EnableTurquoise", true).getBoolean(true);
-        Properties.enableWorldGenWAlabaster = config.get(gen + wal, "EnableWhiteAlabaster", true).getBoolean(true);
+        Properties.enableWorldGenAmethyst = config.get(ConfigWorldGen.gen + ConfigWorldGen.ame,
+                "EnableAmethyst", true).getBoolean(true);
+        Properties.enableWorldGenBDiamond = config.get(ConfigWorldGen.gen + ConfigWorldGen.bdi,
+                "EnableBlackDiamond", true).getBoolean(true);
+        Properties.enableWorldGenCitrine = config.get(ConfigWorldGen.gen + ConfigWorldGen.cit,
+                "EnableCitrine", true).getBoolean(true);
+        Properties.enableWorldGenCZirconia = config.get(ConfigWorldGen.gen + ConfigWorldGen.czi,
+                "EnableCubicZirconia", true).getBoolean(true);
+        Properties.enableWorldGenFuchsia = config.get(ConfigWorldGen.gen + ConfigWorldGen.fuc,
+                "EnableFuchsia", true).getBoolean(true);
+        Properties.enableWorldGenJet = config.get(ConfigWorldGen.gen + ConfigWorldGen.jet,
+                "EnableJet", true).getBoolean(true);
+        Properties.enableWorldGenOlivine = config.get(ConfigWorldGen.gen + ConfigWorldGen.oli,
+                "EnableOlivine", true).getBoolean(true);
+        Properties.enableWorldGenOpal = config.get(ConfigWorldGen.gen + ConfigWorldGen.opal,
+                "EnableOpal", true).getBoolean(true);
+        Properties.enableWorldGenRuby = config.get(ConfigWorldGen.gen + ConfigWorldGen.ruby,
+                "EnableRuby", true).getBoolean(true);
+        Properties.enableWorldGenSapphire = config.get(ConfigWorldGen.gen + ConfigWorldGen.sap,
+                "EnableSapphire", true).getBoolean(true);
+        Properties.enableWorldGenSQuartz = config.get(ConfigWorldGen.gen + ConfigWorldGen.squ,
+                "EnableSmokyQuartz", true).getBoolean(true);
+        Properties.enableWorldGenSun = config.get(ConfigWorldGen.gen + ConfigWorldGen.sun,
+                "EnableSunJewl", true).getBoolean(true);
+        Properties.enableWorldGenTopaz = config.get(ConfigWorldGen.gen + ConfigWorldGen.top,
+                "EnableTopaz", true).getBoolean(true);
+        Properties.enableWorldGenTurquoise = config.get(ConfigWorldGen.gen + ConfigWorldGen.tur,
+                "EnableTurquoise", true).getBoolean(true);
+        Properties.enableWorldGenWAlabaster = config.get(ConfigWorldGen.gen + ConfigWorldGen.wal,
+                "EnableWhiteAlabaster", true).getBoolean(true);
     }
 }

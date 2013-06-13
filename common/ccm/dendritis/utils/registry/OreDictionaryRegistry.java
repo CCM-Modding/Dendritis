@@ -1,8 +1,6 @@
 package ccm.dendritis.utils.registry;
 
 import net.minecraftforge.oredict.OreDictionary;
-
-
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
@@ -10,14 +8,12 @@ import ccm.dendritis.enums.EnumOres;
 import ccm.nucleum.handler.Handler;
 import ccm.nucleum.helper.enums.EnumHelper;
 
-final class OreDictionaryRegistry
-{
+final class OreDictionaryRegistry {
 
     /**
      * Registers all the Entries to the Ore Dictionary.
      */
-    protected static void oreDictionary()
-    {
+    protected static void oreDictionary() {
         Handler.log(Dendritis.instance, "Adding Ore Dictionary Entries");
 
         OreDictionary.registerOre("gemAmethyst", EnumHelper.getItemIS(EnumGems.gemAmethyst));
@@ -55,7 +51,8 @@ final class OreDictionaryRegistry
         OreDictionary.registerOre("blockAmethyst", EnumHelper.getBlockIS(EnumBlocks.blockAmethyst));
         OreDictionary.registerOre("blockBDiamond", EnumHelper.getBlockIS(EnumBlocks.blockBDiamond));
         OreDictionary.registerOre("blockCitrine", EnumHelper.getBlockIS(EnumBlocks.blockCitrine));
-        OreDictionary.registerOre("blockCZirconia", EnumHelper.getBlockIS(EnumBlocks.blockCZirconia));
+        OreDictionary.registerOre("blockCZirconia",
+                EnumHelper.getBlockIS(EnumBlocks.blockCZirconia));
         OreDictionary.registerOre("blockFuchsia", EnumHelper.getBlockIS(EnumBlocks.blockFuchsia));
         OreDictionary.registerOre("blockJet", EnumHelper.getBlockIS(EnumBlocks.blockJet));
         OreDictionary.registerOre("blockOlivine", EnumHelper.getBlockIS(EnumBlocks.blockOlivine));
@@ -65,7 +62,9 @@ final class OreDictionaryRegistry
         OreDictionary.registerOre("blockSQuartz", EnumHelper.getBlockIS(EnumBlocks.blockSQuartz));
         OreDictionary.registerOre("blockSun", EnumHelper.getBlockIS(EnumBlocks.blockSun));
         OreDictionary.registerOre("blockTopaz", EnumHelper.getBlockIS(EnumBlocks.blockTopaz));
-        OreDictionary.registerOre("blockTurquoise", EnumHelper.getBlockIS(EnumBlocks.blockTurquoise));
-        OreDictionary.registerOre("blockWAlabaster", EnumHelper.getBlockIS(EnumBlocks.blockWAlabaster));
+        OreDictionary.registerOre("blockTurquoise",
+                EnumHelper.getBlockIS(EnumBlocks.blockTurquoise));
+        OreDictionary.registerOre("blockWAlabaster",
+                EnumHelper.getBlockIS(EnumBlocks.blockWAlabaster));
     }
 }

@@ -1,8 +1,6 @@
 package ccm.dendritis.creativetab;
 
 import net.minecraft.item.ItemStack;
-
-
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
 import ccm.dendritis.enums.EnumMain;
@@ -12,8 +10,7 @@ import ccm.dendritis.utils.lib.Archive;
 import ccm.nucleum.creativetab.CreativeTab;
 import ccm.nucleum.helper.enums.EnumHelper;
 
-public class DendritisTabs
-{
+public class DendritisTabs {
 
     /**
      * Tabs that Contains All the blocks
@@ -45,23 +42,21 @@ public class DendritisTabs
      */
     public static CreativeTab tabDendritisTC;
 
-    public static void initTabs()
-    {
-        tabDendritisBlocks = new CreativeTab(Archive.TAB_DENDRITIS_BLOCKS);
-        tabDendritisGems = new CreativeTab(Archive.TAB_DENDRITIS_GEMS);
-        tabDendritisItems = new CreativeTab(Archive.TAB_DENDRITIS_ITEMS);
-        tabDendritisTools = new CreativeTab(Archive.TAB_DENDRITIS_TOOLS);
-        tabDendritisArmor = new CreativeTab(Archive.TAB_DENDRITIS_ARMOR);
-        tabDendritisTC = new CreativeTab(Archive.TAB_DENDRITIS_TC);
+    public static void initTabs() {
+        DendritisTabs.tabDendritisBlocks = new CreativeTab(Archive.TAB_DENDRITIS_BLOCKS);
+        DendritisTabs.tabDendritisGems = new CreativeTab(Archive.TAB_DENDRITIS_GEMS);
+        DendritisTabs.tabDendritisItems = new CreativeTab(Archive.TAB_DENDRITIS_ITEMS);
+        DendritisTabs.tabDendritisTools = new CreativeTab(Archive.TAB_DENDRITIS_TOOLS);
+        DendritisTabs.tabDendritisArmor = new CreativeTab(Archive.TAB_DENDRITIS_ARMOR);
+        DendritisTabs.tabDendritisTC = new CreativeTab(Archive.TAB_DENDRITIS_TC);
     }
 
-    public static void initTabIcons()
-    {
-        tabDendritisBlocks.init(EnumHelper.getBlockIS(EnumBlocks.blockAmethyst));
-        tabDendritisGems.init(EnumHelper.getItemIS(EnumGems.gemAmethyst));
-        tabDendritisItems.init(EnumHelper.getItemIS(EnumMain.handle));
-        tabDendritisTools.init(new ItemStack(ModTools.swordAmethyst));
-        tabDendritisArmor.init(new ItemStack(ModArmors.chestAmethyst));
-        tabDendritisTC.init(EnumHelper.getItemIS(EnumMain.handle));
+    public static void initTabIcons() {
+        DendritisTabs.tabDendritisBlocks.init(EnumHelper.getBlockIS(EnumBlocks.blockAmethyst));
+        DendritisTabs.tabDendritisGems.init(EnumHelper.getItemIS(EnumGems.gemAmethyst));
+        DendritisTabs.tabDendritisItems.init(EnumHelper.getItemIS(EnumMain.handle));
+        DendritisTabs.tabDendritisTools.init(new ItemStack(ModTools.swordAmethyst));
+        DendritisTabs.tabDendritisArmor.init(new ItemStack(ModArmors.chestAmethyst));
+        DendritisTabs.tabDendritisTC.init(EnumHelper.getItemIS(EnumMain.handle));
     }
 }

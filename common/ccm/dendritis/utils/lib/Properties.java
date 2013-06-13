@@ -1,7 +1,6 @@
 package ccm.dendritis.utils.lib;
 
-public class Properties
-{
+public class Properties {
 
     /*
      * Defaluts
