@@ -5,7 +5,7 @@ import ccm.dendritis.Dendritis;
 import ccm.dendritis.creativetab.DendritisTabs;
 import ccm.dendritis.item.classes.BaseItem;
 import ccm.dendritis.utils.lib.Properties;
-import ccm.nucleum.handler.Handler;
+import ccm.nucleum_omnium.handler.Handler;
 
 public final class ModItems {
 

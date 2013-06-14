@@ -5,8 +5,8 @@ import ccm.dendritis.Dendritis;
 import ccm.dendritis.enums.EnumBlocks;
 import ccm.dendritis.enums.EnumGems;
 import ccm.dendritis.enums.EnumOres;
-import ccm.nucleum.handler.Handler;
-import ccm.nucleum.helper.enums.EnumHelper;
+import ccm.nucleum_omnium.handler.Handler;
+import ccm.nucleum_omnium.helper.enums.EnumHelper;
 
 final class OreDictionaryRegistry {
 

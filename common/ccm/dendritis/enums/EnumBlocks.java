@@ -5,8 +5,8 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.util.Icon;
 import ccm.dendritis.block.ModBlocks;
 import ccm.dendritis.utils.lib.Locations;
-import ccm.nucleum.helper.TextureHelper;
-import ccm.nucleum.helper.enums.IBlockEnum;
+import ccm.nucleum_omnium.helper.TextureHelper;
+import ccm.nucleum_omnium.helper.enums.IBlockEnum;
 
 public enum EnumBlocks implements IBlockEnum {
 

@@ -6,8 +6,8 @@ import ccm.dendritis.block.ModBlocks;
 import ccm.dendritis.enums.EnumOres;
 import ccm.dendritis.utils.lib.Archive;
 import ccm.dendritis.utils.lib.Properties;
-import ccm.nucleum.handler.Handler;
-import ccm.nucleum.world.WorldGenerator;
+import ccm.nucleum_omnium.handler.Handler;
+import ccm.nucleum_world.WorldGenerator;
 
 final class WorldRegistry {
 

@@ -2,7 +2,7 @@ package ccm.dendritis.utils.registry;
 
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.core.recipe.RecipeHandler;
-import ccm.nucleum.handler.GUIHandler;
+import ccm.nucleum_omnium.handler.GUIHandler;
 import cpw.mods.fml.common.network.NetworkRegistry;
 
 public final class Registry {

@@ -3,7 +3,7 @@ package ccm.dendritis.block;
 import net.minecraft.block.Block;
 import ccm.dendritis.Dendritis;
 import ccm.dendritis.utils.lib.Properties;
-import ccm.nucleum.handler.Handler;
+import ccm.nucleum_omnium.handler.Handler;
 
 public final class ModBlocks {
 

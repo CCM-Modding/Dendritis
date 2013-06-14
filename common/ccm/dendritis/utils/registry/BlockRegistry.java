@@ -4,7 +4,7 @@ import ccm.dendritis.Dendritis;
 import ccm.dendritis.block.ModBlocks;
 import ccm.dendritis.item.itemblock.ItemBlockBlock;
 import ccm.dendritis.item.itemblock.ItemBlockOre;
-import ccm.nucleum.handler.Handler;
+import ccm.nucleum_omnium.handler.Handler;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 final class BlockRegistry {

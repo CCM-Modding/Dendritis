@@ -8,7 +8,7 @@ import net.minecraftforge.common.IArmorTextureProvider;
 import ccm.dendritis.creativetab.DendritisTabs;
 import ccm.dendritis.item.ModArmors;
 import ccm.dendritis.utils.lib.Locations;
-import ccm.nucleum.helper.TextureHelper;
+import ccm.nucleum_omnium.helper.TextureHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
