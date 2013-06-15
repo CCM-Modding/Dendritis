@@ -8,7 +8,7 @@ import ccm.dendritis.item.ModArmors;
 import ccm.dendritis.item.ModTools;
 import ccm.dendritis.utils.lib.Archive;
 import ccm.nucleum_omnium.creativetab.CreativeTab;
-import ccm.nucleum_omnium.helper.enums.EnumHelper;
+import ccm.nucleum_omnium.helper.enums.EnumToItemStack;
 
 public class DendritisTabs {
 
@@ -52,11 +52,11 @@ public class DendritisTabs {
     }
 
     public static void initTabIcons() {
-        DendritisTabs.tabDendritisBlocks.init(EnumHelper.getBlockIS(EnumBlocks.blockAmethyst));
-        DendritisTabs.tabDendritisGems.init(EnumHelper.getItemIS(EnumGems.gemAmethyst));
-        DendritisTabs.tabDendritisItems.init(EnumHelper.getItemIS(EnumMain.handle));
+        DendritisTabs.tabDendritisBlocks.init(EnumToItemStack.getBlockIS(EnumBlocks.blockAmethyst));
+        DendritisTabs.tabDendritisGems.init(EnumToItemStack.getItemIS(EnumGems.gemAmethyst));
+        DendritisTabs.tabDendritisItems.init(EnumToItemStack.getItemIS(EnumMain.handle));
         DendritisTabs.tabDendritisTools.init(new ItemStack(ModTools.swordAmethyst));
         DendritisTabs.tabDendritisArmor.init(new ItemStack(ModArmors.chestAmethyst));
-        DendritisTabs.tabDendritisTC.init(EnumHelper.getItemIS(EnumMain.handle));
+        DendritisTabs.tabDendritisTC.init(EnumToItemStack.getItemIS(EnumMain.handle));
     }
 }

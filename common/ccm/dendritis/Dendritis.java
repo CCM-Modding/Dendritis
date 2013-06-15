@@ -17,6 +17,7 @@ import ccm.dendritis.utils.lib.Locations;
 import ccm.dendritis.utils.registry.Registry;
 import ccm.nucleum_omnium.BaseMod;
 import ccm.nucleum_omnium.IMod;
+import ccm.nucleum_omnium.configuration.AdvConfiguration;
 import ccm.nucleum_omnium.handler.Handler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.FingerprintWarning;
@@ -42,20 +43,22 @@ import cpw.mods.fml.common.network.NetworkMod;
             packetHandler = PacketHandler.class)
 @ModstatInfo(prefix = Archive.MOD_PREFIX)
 public class Dendritis extends BaseMod implements IMod {
-
+    
     /**
      * The MoreOres Instance
      */
     @Instance(Archive.MOD_ID)
-    public static Dendritis   instance;
-
+    public static Dendritis        instance;
+    
     /**
      * The MoreOres proxy
      */
     @SidedProxy(serverSide = Locations.SERVER_PROXY,
                 clientSide = Locations.CLIENT_PROXY)
-    public static CommonProxy proxy;
-
+    public static CommonProxy      proxy;
+    
+    public static AdvConfiguration config;
+    
     @FingerprintWarning
     public void invalidFingerprint(final FMLFingerprintViolationEvent event) {
         /*
@@ -64,40 +67,47 @@ public class Dendritis extends BaseMod implements IMod {
          */
         Handler.log(this, Level.SEVERE, Archive.INVALID_FINGERPRINT_MSG);
     }
-
+    
     @PreInit
     public void preInit(final FMLPreInitializationEvent evt) {
         if (!Handler.isModLoaded(this)) {
-
+            
             Handler.initLog(this);
-
-            Config.init(this.initializeConfig(evt));
-
+            
+            config = this.initializeConfig(evt);
+            
+            Config.init(config);
+            
             DendritisTabs.initTabs();
-
+            
             ModItems.init();
-
+            
             ModTools.init();
-
+            
             ModArmors.init();
-
+            
             ModBlocks.init();
-
+            
             DendritisTabs.initTabIcons();
         }
     }
-
+    
     @Init
     public void init(final FMLInitializationEvent event) {
         Dendritis.proxy.registerGUIs();
-
+        
         Registry.register();
-
+        
         new DendritisLanguagePack().loadLangs();
     }
-
+    
     @PostInit
     public void PostInit(final FMLPostInitializationEvent event) {
         Handler.loadMod(this);
+    }
+    
+    @Override
+    public AdvConfiguration getConfigFile() {
+        return config;
     }
 }
