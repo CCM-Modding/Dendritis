@@ -9,7 +9,7 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 import ccm.nucleum_omnium.helper.enums.IBlockEnum;
 
 public enum EnumOres implements IBlockEnum {
-
+    
     oreAmethyst,
     oreBDiamond,
     oreCitrine,
@@ -25,27 +25,34 @@ public enum EnumOres implements IBlockEnum {
     oreTopaz,
     oreTurquoise,
     oreWAlabaster;
-
+    
     private Icon        icon;
-
+    
     public final String texture;
-
+    
     public static void registerIcons(final IconRegister register) {
-        for (final EnumOres ore : EnumOres.values())
+        for (final EnumOres ore : EnumOres.values()) {
             ore.icon = register.registerIcon(ore.texture);
+        }
     }
-
+    
     private EnumOres() {
-        this.texture = TextureHelper.getTextureFromName(this.name(), Locations.TEXTURE + "ore/");
+        texture = TextureHelper.getTextureFromName(name(), Locations.TEXTURE + "ore/");
     }
-
+    
     @Override
     public Icon getIcon() {
-        return this.icon;
+        return icon;
     }
-
+    
     @Override
     public Block getBaseBlock() {
         return ModBlocks.blocks;
+    }
+    
+    @Override
+    public void setBaseBlock(Block base) {
+        // TODO Auto-generated method stub
+        
     }
 }

@@ -6,7 +6,7 @@ import ccm.nucleum_omnium.configuration.AdvConfiguration;
 import ccm.nucleum_omnium.handler.Handler;
 
 final class ConfigBlocks extends Config {
-
+    
     /**
      * Loads or creates the Blocks in the Configuration file.
      * 

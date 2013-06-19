@@ -9,7 +9,7 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 import ccm.nucleum_omnium.helper.enums.IItemEnum;
 
 public enum EnumGems implements IItemEnum {
-
+    
     gemAmethyst,
     gemBDiamond,
     gemCitrine,
@@ -25,25 +25,26 @@ public enum EnumGems implements IItemEnum {
     gemTopaz,
     gemTurquoise,
     gemWAlabaster;
-
+    
     public static void registerIcons(final IconRegister register) {
-        for (final EnumGems gem : EnumGems.values())
+        for (final EnumGems gem : EnumGems.values()) {
             gem.icon = register.registerIcon(gem.texture);
+        }
     }
-
+    
     private Icon        icon;
-
+    
     public final String texture;
-
+    
     private EnumGems() {
-        this.texture = TextureHelper.getTextureFromName(this.name(), Locations.TEXTURE + "gems/");
+        texture = TextureHelper.getTextureFromName(name(), Locations.TEXTURE + "gems/");
     }
-
+    
     @Override
     public Icon getIcon() {
-        return this.icon;
+        return icon;
     }
-
+    
     @Override
     public Item getBaseItem() {
         return ModItems.itemGems;

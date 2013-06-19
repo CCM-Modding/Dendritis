@@ -8,18 +8,17 @@ import ccm.dendritis.utils.lib.Properties;
 import ccm.nucleum_omnium.handler.Handler;
 
 public final class ModItems {
-
+    
     public static Item itemMain;
-
+    
     public static Item itemGems;
-
+    
     /**
      * Creates all the Item Objects in the Mod.
      */
     public static void init() {
         Handler.log(Dendritis.instance, "Loading Items");
         ModItems.itemMain = new BaseItem(Properties.itemMainID, 0);
-        ModItems.itemGems = new BaseItem(Properties.itemGemsID, 1)
-                .setCreativeTab(DendritisTabs.tabDendritisGems);
+        ModItems.itemGems = new BaseItem(Properties.itemGemsID, 1).setCreativeTab(DendritisTabs.tabDendritisGems);
     }
 }

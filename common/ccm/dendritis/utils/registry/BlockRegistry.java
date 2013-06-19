@@ -8,7 +8,7 @@ import ccm.nucleum_omnium.handler.Handler;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 final class BlockRegistry {
-
+    
     /**
      * Registers all the Blocks.
      */

@@ -9,27 +9,28 @@ import ccm.nucleum_omnium.helper.TextureHelper;
 import ccm.nucleum_omnium.helper.enums.IItemEnum;
 
 public enum EnumMain implements IItemEnum {
-
+    
     handle;
-
+    
     public static void registerIcons(final IconRegister register) {
-        for (final EnumMain main : EnumMain.values())
+        for (final EnumMain main : EnumMain.values()) {
             main.icon = register.registerIcon(main.texture);
+        }
     }
-
+    
     private Icon        icon;
-
+    
     public final String texture;
-
+    
     private EnumMain() {
-        this.texture = TextureHelper.getTextureFromName(this.name(), Locations.TEXTURE);
+        texture = TextureHelper.getTextureFromName(name(), Locations.TEXTURE);
     }
-
+    
     @Override
     public Icon getIcon() {
-        return this.icon;
+        return icon;
     }
-
+    
     @Override
     public Item getBaseItem() {
         return ModItems.itemMain;
